@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "usuario.win009",
+        "designer|userClassName": "menu.Win004ViewController4"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "menu.Win004ViewController4",
+    "designerId": "22c46ffb-b68f-44ed-bf84-264557869610"
+}

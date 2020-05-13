@@ -1,0 +1,87 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "autoSync": true,
+        "designer|userClassName": "tipo_tarjeta.win015Store",
+        "model": "tipo_tarjeta.tipoTarjetaModel",
+        "storeId": "tipo_tarjeta.win015Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string",
+        "autoSync": "boolean",
+        "autoLoad": "boolean"
+    },
+    "name": "MyStore",
+    "designerId": "be96fd2a-cd81-45a0-8a91-f19a40b9e7a2",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "api": [
+                    "{",
+                    "read: '../servidor_legalhelp/tipo_tarjeta/gettipotarjeta',",
+                    "create: '../servidor_legalhelp/tipo_tarjeta/savetipotarjeta',",
+                    "update: '../servidor_legalhelp/tipo_tarjeta/savetipotarjeta',",
+                    "destroy: '../servidor_legalhelp/tipo_tarjeta/deletetipotarjeta'",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "api": "object"
+            },
+            "name": "MyAjaxProxy6",
+            "designerId": "f1605b44-4b07-4312-9cd5-ba943c3480e3",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "metaProperty": "newId",
+                        "rootProperty": "data"
+                    },
+                    "configAlternates": {
+                        "metaProperty": "string",
+                        "rootProperty": "string"
+                    },
+                    "name": "MyJsonReader6",
+                    "designerId": "696a20ce-3314-4fa5-b5fb-371c14e44779"
+                },
+                {
+                    "type": "Ext.data.writer.Json",
+                    "reference": {
+                        "name": "writer",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "encode": true,
+                        "rootProperty": "data"
+                    },
+                    "configAlternates": {
+                        "encode": "boolean",
+                        "rootProperty": "string"
+                    },
+                    "name": "MyJsonWriter1",
+                    "designerId": "96be78a3-103a-402b-bf00-b1fad00c0dd5"
+                }
+            ]
+        }
+    ]
+}

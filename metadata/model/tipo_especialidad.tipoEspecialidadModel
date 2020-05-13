@@ -1,0 +1,90 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tipo_especialidad.tipoespecialidadmodel",
+        "designer|userAliasPrefix": "model",
+        "designer|userClassName": "tipo_especialidad.tipoEspecialidadModel",
+        "idProperty": "tes_id"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string",
+        "designer|userAlias": "string",
+        "designer|userAliasPrefix": "string"
+    },
+    "name": "MyModel",
+    "designerId": "ea1eda6d-8190-4ba1-9cb0-2bc260f73e7b",
+    "cn": [
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "tes_id",
+                "unique": true
+            },
+            "configAlternates": {
+                "name": "string",
+                "unique": "boolean"
+            },
+            "name": "MyInteger9",
+            "designerId": "bebbcdbc-1235-4667-ae84-f5215c3b3f05"
+        },
+        {
+            "type": "Ext.data.field.String",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "nombre"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyString15",
+            "designerId": "c534d2d3-1553-4a86-9322-ea438cabba7d"
+        },
+        {
+            "type": "Ext.data.field.String",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "descripcion"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyString16",
+            "designerId": "612ae711-4cf0-4df4-904c-2233df0317f6"
+        },
+        {
+            "type": "Ext.data.field.String",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "imagen"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyString3",
+            "designerId": "b384ce72-57e4-4467-aa0e-69aca92dce6a"
+        }
+    ]
+}

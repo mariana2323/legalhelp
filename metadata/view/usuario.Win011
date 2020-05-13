@@ -1,0 +1,449 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "usuario.win011",
+        "designer|userClassName": "usuario.Win011",
+        "id": "Win9"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "id": "string"
+    },
+    "name": "usuario.Win",
+    "designerId": "79243f9e-5dae-46bf-956a-fd4a8c964f7d",
+    "viewControllerInstanceId": "34646e80-19c6-4d3e-b34e-493abc78d4db",
+    "viewModelInstanceId": "0bdebefa-2570-4efb-8dbe-6d06cb944f43",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "frmLogin4"
+            },
+            "configAlternates": {
+                "designer|userAlias": "string",
+                "designer|userClassName": "string",
+                "title": "string",
+                "id": "string"
+            },
+            "name": "MyFormPanel",
+            "designerId": "a7786af3-adc5-4371-826a-30d77f4a473f",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top"
+                    },
+                    "configAlternates": {
+                        "docked": "string"
+                    },
+                    "name": "MyToolbar1",
+                    "designerId": "6b79fdc8-1d7e-41b5-b9cd-a2bf367bea6d",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "x-fa fa-chevron-left",
+                                "id": "btnFrmLogin24"
+                            },
+                            "configAlternates": {
+                                "iconCls": "string",
+                                "id": "string"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "18ed7116-abda-429a-a8d8-e03b5e6d177a",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnFrmLogin0021Tap",
+                                        "implHandler": [
+                                            "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.login.WinLogin');"
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnFrmLogin0021Tap",
+                                    "designerId": "03f6c3df-539c-4588-86e9-33a03429d576"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">Registrarse</h3>"
+                            },
+                            "configAlternates": {
+                                "html": "string"
+                            },
+                            "name": "MyPanel5",
+                            "designerId": "9cf6ab51-5f46-4217-9a9c-204dad097cf9"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "vbox",
+                        "title": "Ingresa tus datos"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyFieldSet",
+                    "designerId": "e848e8ef-3521-4055-b9c6-eaf74b8d9f64",
+                    "cn": [
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "hbox"
+                            },
+                            "configAlternates": {
+                                "layout": "string"
+                            },
+                            "name": "MyPanel",
+                            "designerId": "cf9aa17d-b730-4f63-97d7-6192083668e4",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Primer nombre",
+                                        "labelAlign": "bottom",
+                                        "layout|flex": 1,
+                                        "margin": "0 5 0 0",
+                                        "name": "PRIMER_NOMBRE"
+                                    },
+                                    "configAlternates": {
+                                        "label": "string",
+                                        "labelAlign": "string",
+                                        "layout|flex": "number",
+                                        "margin": "auto",
+                                        "name": "string"
+                                    },
+                                    "name": "MyTextField",
+                                    "designerId": "b5a9a5c2-4fd8-4868-9acb-00447f3c617a"
+                                },
+                                {
+                                    "type": "Ext.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Segundo nombre",
+                                        "labelAlign": "bottom",
+                                        "layout|flex": 1,
+                                        "name": "SEGUNDO_NOMBRE"
+                                    },
+                                    "configAlternates": {
+                                        "label": "string",
+                                        "labelAlign": "string",
+                                        "layout|flex": "number",
+                                        "name": "string"
+                                    },
+                                    "name": "MyTextField2",
+                                    "designerId": "ea87c3b9-ae3f-4e8b-963b-209a794c6736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "hbox"
+                            },
+                            "configAlternates": {
+                                "layout": "string"
+                            },
+                            "name": "MyPanel2",
+                            "designerId": "de3fb638-7c33-4b28-9837-bff7062b7b81",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Primer apellido",
+                                        "labelAlign": "bottom",
+                                        "layout|flex": 1,
+                                        "margin": "0 5 0 0",
+                                        "name": "PRIMER_APELLIDO"
+                                    },
+                                    "configAlternates": {
+                                        "label": "string",
+                                        "labelAlign": "string",
+                                        "layout|flex": "number",
+                                        "margin": "auto",
+                                        "name": "string"
+                                    },
+                                    "name": "MyTextField1",
+                                    "designerId": "49cfcb81-2123-4c6f-9841-3249fa136bec"
+                                },
+                                {
+                                    "type": "Ext.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Segundo apellido",
+                                        "labelAlign": "bottom",
+                                        "layout|flex": 1,
+                                        "name": "SEGUNDO_APELLIDO"
+                                    },
+                                    "configAlternates": {
+                                        "label": "string",
+                                        "labelAlign": "string",
+                                        "layout|flex": "number",
+                                        "name": "string"
+                                    },
+                                    "name": "MyTextField3",
+                                    "designerId": "1cbf9d03-19fc-4471-bcf0-4fd320aa56fb"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.field.Email",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Correo",
+                                "labelAlign": "bottom",
+                                "name": "EMAIL"
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string"
+                            },
+                            "name": "MyEmailField1",
+                            "designerId": "b78db064-d296-4e74-a4b5-e30eb3bb5e9a"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Contraseña",
+                                "labelAlign": "bottom",
+                                "name": "XXX_CLAVE",
+                                "revealable": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean"
+                            },
+                            "name": "MyPasswordField1",
+                            "designerId": "c3a7dc94-b181-4715-bfba-b04b031708cd"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Repita la contraseña",
+                                "labelAlign": "bottom",
+                                "name": "CLAVE",
+                                "revealable": true
+                            },
+                            "configAlternates": {
+                                "id": "string",
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean"
+                            },
+                            "name": "MyPasswordField2",
+                            "designerId": "0f60baa2-d50b-451b-b9e5-bb411cff4496"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Teléfono",
+                                "labelAlign": "bottom",
+                                "name": "TELEFONO_PRINCIPAL"
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField4",
+                            "designerId": "eb9adf4f-6f48-4c5f-afda-2bfd9915faa8"
+                        },
+                        {
+                            "type": "Ext.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Dirección",
+                                "labelAlign": "bottom",
+                                "name": "DIRECCION"
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextArea",
+                            "designerId": "f6cbfb34-17a4-4a70-b211-93cde63aa8b1"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "bottom",
+                        "id": "btnFrmLogin25",
+                        "text": "Enviar"
+                    },
+                    "configAlternates": {
+                        "docked": "string",
+                        "text": "string",
+                        "id": "string"
+                    },
+                    "name": "MyButton6",
+                    "designerId": "1f00a11e-66c6-4fa9-afec-09a3ae487a5c",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnFrmLogin0022Tap",
+                                "implHandler": [
+                                    "var me = this;",
+                                    "var formulario = Ext.getCmp('frmLogin002');",
+                                    "//var forma = formulario.getForm();",
+                                    "",
+                                    "formulario.submit({",
+                                    "    url    : '../servidor_legalhelp/login/registrarse',",
+                                    "    method  : 'POST',",
+                                    "    params: {",
+                                    "        data: Ext.JSON.encode(formulario.getValues())",
+                                    "    },",
+                                    "    success: function (response, options)",
+                                    "    {",
+                                    "        //var responseData = Ext.JSON.decode(options.response.responseText);",
+                                    "        if(options.success)",
+                                    "        {",
+                                    "            Ext.Msg.alert('Info', 'Listo! inicia sesión');",
+                                    "            var win = Ext.create('Legalhelp.view.login.WinLogin', {fullscreen: true});",
+                                    "            me.getView().destroy();",
+                                    "        }",
+                                    "        else",
+                                    "            Ext.Msg.alert('Error', 'Ha ocurrido un error al realizar el registro');",
+                                    "    },",
+                                    "    failure: function ()",
+                                    "    {",
+                                    "        var msg = 'Error de conexión';",
+                                    "        Ext.Msg.alert('Error',msg);",
+                                    "    }",
+                                    "});"
+                                ],
+                                "name": "tap",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onBtnFrmLogin0022Tap",
+                            "designerId": "288ce193-00e0-4d93-828c-60f130464c5e"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

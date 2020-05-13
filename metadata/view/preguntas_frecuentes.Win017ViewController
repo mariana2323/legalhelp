@@ -1,0 +1,63 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "preguntas_frecuentes.win017",
+        "designer|userClassName": "preguntas_frecuentes.Win017ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "preguntas_frecuentes.Win005ViewController1",
+    "designerId": "2ec00140-1fc8-490d-b153-d4ffbd243757",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "deleteRecord",
+                "implHandler": [
+                    "Legalhelp.controller.Funciones.deleteRecord('lstWin0171');"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "deleteRecord",
+            "designerId": "6fa209a2-aced-435c-afcb-e199f45ebffa"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "editRecord",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0171');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.preguntas_frecuentes.Win025', 'frmWin0251', selection);"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "editRecord",
+            "designerId": "6f70e141-3ff7-493e-b9b0-6fae3ba7add6"
+        }
+    ]
+}

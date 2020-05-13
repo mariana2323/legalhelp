@@ -1,0 +1,261 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tipo_identificacion.win023",
+        "designer|userClassName": "tipo_identificacion.Win023",
+        "id": "Win023"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "id": "string"
+    },
+    "name": "tipo_especialidad.Win",
+    "designerId": "d6450670-7c4d-4b49-a00b-6fc81bf3e2db",
+    "viewControllerInstanceId": "8936dde1-7212-4dc5-9b5f-51748258c85e",
+    "viewModelInstanceId": "8b82d078-740e-453c-b13f-baac6fbe36ae",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "frmWin0231"
+            },
+            "configAlternates": {
+                "designer|userAlias": "string",
+                "designer|userClassName": "string",
+                "title": "string",
+                "id": "string"
+            },
+            "name": "MyFormPanel",
+            "designerId": "7cefbe24-6c03-4876-ab93-0ca9a6a7191d",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top"
+                    },
+                    "configAlternates": {
+                        "docked": "string"
+                    },
+                    "name": "MyToolbar1",
+                    "designerId": "f5b64bd7-9e52-450c-8169-67192dddb63e",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "x-fa fa-chevron-left",
+                                "id": "btnWin0231"
+                            },
+                            "configAlternates": {
+                                "iconCls": "string",
+                                "id": "string"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "bbefc723-b890-4d80-922c-8500845f60e6",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnWin0231Tap",
+                                        "implHandler": [
+                                            "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.tipo_identificacion.Win014');"
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnWin0231Tap",
+                                    "designerId": "9f17d155-71b0-4369-af5d-d73000b30277"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">Registrarse</h3>",
+                                "id": "dsfWin0231"
+                            },
+                            "configAlternates": {
+                                "html": "string",
+                                "id": "string"
+                            },
+                            "name": "MyPanel5",
+                            "designerId": "75669900-5c1e-4a87-b34b-3b5754a2a2e3"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "vbox",
+                        "title": "Tipo de identificación"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyFieldSet",
+                    "designerId": "2b6159f1-5c40-4511-af28-2090706f723c",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "label": "Código",
+                                "labelAlign": "bottom",
+                                "name": "tid_id"
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean",
+                                "hidden": "boolean"
+                            },
+                            "name": "MyTextField",
+                            "designerId": "8da8822a-39d1-41fa-ab08-80f8f7c63b2b"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Nombre",
+                                "labelAlign": "bottom",
+                                "name": "nombre"
+                            },
+                            "configAlternates": {
+                                "id": "string",
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean"
+                            },
+                            "name": "MyTextField1",
+                            "designerId": "72ea427b-c8ca-4047-a922-9258c1e4693a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "id": "btnWin0232",
+                "text": "Grabar"
+            },
+            "configAlternates": {
+                "docked": "string",
+                "text": "string",
+                "id": "string"
+            },
+            "name": "MyButton6",
+            "designerId": "f59ac508-e0d1-43d1-a981-d9526ad29915",
+            "cn": [
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onBtnWin0232Tap",
+                        "implHandler": [
+                            "Legalhelp.controller.Funciones.saveRecord('tipo_identificacion.win014Store', 'frmWin0231');",
+                            "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.tipo_identificacion.Win014');"
+                        ],
+                        "name": "tap",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onBtnWin0232Tap",
+                    "designerId": "c8c63a51-a9f9-4344-a04d-6a28ffefd1a7"
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWin023Added",
+                "implHandler": [
+                    "Ext.getCmp('dsfWin0231').setHtml('<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">'+NOMBRE+'</h3>');"
+                ],
+                "name": "added",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onWin023Added",
+            "designerId": "a73e4f54-48ce-4b1f-a3d3-8cbd83497e17"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "especialidad.win026Store",
+        "model": "especialidad.especialidadModel",
+        "storeId": "especialidad.win026Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
+    "name": "MyStore1",
+    "designerId": "759040c5-b712-4b93-8fac-1bba4d3ad9ee",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyAjaxProxy13",
+            "designerId": "f78b6f08-da33-435d-85d0-a894f3ebaef8",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader13",
+                    "designerId": "40e41cf2-834a-4df1-a9d3-94650efd8c3d"
+                }
+            ]
+        }
+    ]
+}

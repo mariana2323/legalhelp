@@ -1,0 +1,45 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "biblioteca.win037",
+        "designer|userClassName": "biblioteca.Win037ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "biblioteca.Win034ViewController1",
+    "designerId": "b770fa29-6de8-4218-a386-ede747511db5",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "seeRecord",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0371');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.biblioteca.Win038');",
+                    "var url = '<iframe src=\"../servidor_legalhelp/img/'+selection.data.archivo+'\" width=\"100%\" height=\"100%\"></iframe>';",
+                    "Ext.getCmp('pnlWin0382').setHtml(url);"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "seeRecord",
+            "designerId": "52dd098e-726b-4b7b-a80e-c56a613f392a"
+        }
+    ]
+}

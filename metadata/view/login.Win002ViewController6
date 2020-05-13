@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "preguntas_frecuentes.win025",
+        "designer|userClassName": "login.Win002ViewController6"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "login.Win002ViewController6",
+    "designerId": "e0e183c6-6c0c-4208-a6f4-9d7757405369"
+}

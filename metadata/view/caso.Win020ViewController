@@ -1,0 +1,43 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "caso.win020",
+        "designer|userClassName": "caso.Win020ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "menu.Win004ViewController10",
+    "designerId": "cdf50734-701c-4834-a1ef-0633d7d3d466",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "editRecord",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0201');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.caso.Win030', 'frmWin0301', selection);"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "editRecord",
+            "designerId": "01f94c7e-baa2-47ba-8e12-e3f7c2ce361a"
+        }
+    ]
+}

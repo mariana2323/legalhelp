@@ -1,0 +1,70 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "cliente.clienteModel",
+        "idProperty": "cli_id"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string"
+    },
+    "name": "MyModel4",
+    "designerId": "c26219fa-1049-436d-bee0-9717a3f79dac",
+    "cn": [
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cli_id",
+                "unique": true
+            },
+            "configAlternates": {
+                "name": "string",
+                "unique": "boolean"
+            },
+            "name": "MyInteger18",
+            "designerId": "d83e513d-7ac3-41ab-89df-aba74375ff80"
+        },
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "usu_id"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyInteger19",
+            "designerId": "8c146f7a-2a37-44c6-827c-798703a8da0d"
+        },
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "tar_id"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyInteger20",
+            "designerId": "7dacc467-dfd5-45cd-bbb9-b21b8400c282"
+        }
+    ]
+}

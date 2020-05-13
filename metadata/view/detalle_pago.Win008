@@ -1,0 +1,52 @@
+{
+    "type": "Ext.grid.Grid",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "detalle_pago.win008",
+        "designer|userClassName": "detalle_pago.Win008",
+        "height": "100%",
+        "id": "grdWin0081",
+        "store": "detalle_pago.win008StoreAux2",
+        "width": "100%"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "store": "store",
+        "width": "auto"
+    },
+    "name": "MyGrid",
+    "designerId": "fad0dad7-891c-435f-a4b5-f109c2f3b19c",
+    "viewControllerInstanceId": "fd9d14f2-6c92-4d64-a860-bbefe8c3882b",
+    "viewModelInstanceId": "c890c5d9-dcb5-4d66-bd1d-dd9daa3536e4",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "xxx_detalle",
+                "docked": null,
+                "text": "String",
+                "width": 70
+            },
+            "configAlternates": {
+                "dataIndex": "datafield",
+                "docked": "string",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyColumn2",
+            "designerId": "96157dce-fdeb-4657-bcf8-694601e8b795"
+        }
+    ]
+}

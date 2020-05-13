@@ -1,0 +1,85 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoSync": true,
+        "designer|userClassName": "abogado.win013Store",
+        "model": "abogado.abogadoModel",
+        "storeId": "abogado.win013Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "storeId": "string",
+        "model": "model",
+        "autoSync": "boolean"
+    },
+    "name": "MyStore2",
+    "designerId": "e0de4b87-f595-4d27-b87c-c3eed0b30a7e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "api": [
+                    "{",
+                    "read: '../servidor_legalhelp/abogado/getabogados',",
+                    "create: '../servidor_legalhelp/abogado/saveabogado',",
+                    "update: '../servidor_legalhelp/abogado/saveabogado',",
+                    "destroy: '../servidor_legalhelp/abogado/deleteabogado'",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "api": "object"
+            },
+            "name": "MyAjaxProxy8",
+            "designerId": "f3a97762-2abd-42cb-a68c-22796c62c67b",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "metaProperty": "newId",
+                        "rootProperty": "data"
+                    },
+                    "configAlternates": {
+                        "metaProperty": "string",
+                        "rootProperty": "string"
+                    },
+                    "name": "MyJsonReader8",
+                    "designerId": "fe72e31c-6db5-4f6e-b261-b689b642bbe6"
+                },
+                {
+                    "type": "Ext.data.writer.Json",
+                    "reference": {
+                        "name": "writer",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "encode": true,
+                        "rootProperty": "data"
+                    },
+                    "configAlternates": {
+                        "encode": "boolean",
+                        "rootProperty": "string"
+                    },
+                    "name": "MyJsonWriter6",
+                    "designerId": "ff583094-7cbb-40a6-b1cf-5de3f14e05c7"
+                }
+            ]
+        }
+    ]
+}

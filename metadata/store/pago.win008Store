@@ -1,0 +1,44 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "pago.win008Store",
+        "model": "pago.pagoModel",
+        "storeId": "pago.win008Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "storeId": "string",
+        "model": "model"
+    },
+    "name": "MyStore",
+    "designerId": "e6eba31c-bf57-43fe-89fe-e8b09f34297e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyAjaxProxy17",
+            "designerId": "b42f5d3e-5dc2-4781-a45c-dfd832c65e17",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader17",
+                    "designerId": "7fa35a93-60c0-46fb-b3dc-d6822401bd3a"
+                }
+            ]
+        }
+    ]
+}

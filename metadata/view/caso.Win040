@@ -1,0 +1,447 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "caso.win040",
+        "designer|userClassName": "caso.Win040",
+        "id": "Win040",
+        "scrollable": true
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "id": "string",
+        "scrollable": "auto"
+    },
+    "name": "caso.Win1",
+    "designerId": "ba12d2a6-6b48-4ff2-a44e-bdd9257db21c",
+    "viewControllerInstanceId": "db366ab7-9aca-4e45-9a77-ba44a313880e",
+    "viewModelInstanceId": "b84a7375-ffda-4061-8669-2a923b7396dd",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "frmWin0401"
+            },
+            "configAlternates": {
+                "designer|userAlias": "string",
+                "designer|userClassName": "string",
+                "title": "string",
+                "id": "string"
+            },
+            "name": "MyFormPanel",
+            "designerId": "4b4cbfde-3906-4006-a654-61440bf689e4",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top"
+                    },
+                    "configAlternates": {
+                        "docked": "string"
+                    },
+                    "name": "MyToolbar1",
+                    "designerId": "6c87a5c2-5b6a-42d2-81d8-2071b65f8da7",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "x-fa fa-chevron-left",
+                                "id": "btnFrmWin0401"
+                            },
+                            "configAlternates": {
+                                "iconCls": "string",
+                                "id": "string"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "73794450-420e-43c4-bb9c-caf7764bf78a",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnFrmWin0401Tap",
+                                        "implHandler": [
+                                            "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.caso.Win039');"
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnFrmWin0401Tap",
+                                    "designerId": "f068da4f-622e-4475-b049-7fae097a6b3f"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "dsfWin0401"
+                            },
+                            "configAlternates": {
+                                "html": "string",
+                                "id": "string"
+                            },
+                            "name": "MyPanel5",
+                            "designerId": "8437c74e-5d03-410b-b5d9-94171072f1d9"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "vbox",
+                        "scrollable": true,
+                        "title": "Caso"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "layout": "string",
+                        "scrollable": "auto"
+                    },
+                    "name": "MyFieldSet",
+                    "designerId": "36c0ef7d-73e8-4d35-8efa-288465a476d3",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "label": "Field",
+                                "name": "cas_id"
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean",
+                                "label": "string",
+                                "name": "string"
+                            },
+                            "name": "MyTextField11",
+                            "designerId": "71d92cdb-bb2f-427f-92e9-48e7b33a413f"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Abogado delegado",
+                                "labelAlign": "bottom",
+                                "name": "xxx_abogado",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "displayField": "datafield",
+                                "hideTrigger": "boolean",
+                                "readOnly": "boolean",
+                                "store": "store",
+                                "valueField": "datafield"
+                            },
+                            "name": "MyTextField6",
+                            "designerId": "2f48ee7f-e950-4c86-ba11-858de47a88c4"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Cliente",
+                                "labelAlign": "bottom",
+                                "name": "xxx_cliente",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean",
+                                "hideTrigger": "boolean",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField5",
+                            "designerId": "6a394207-20f9-4949-a5e1-092e42e30133"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Especialidad",
+                                "labelAlign": "bottom",
+                                "name": "xxx_especialidad",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "id": "string",
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField3",
+                            "designerId": "98ffb633-f9af-4509-a027-4189782879e9"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Nombre",
+                                "labelAlign": "bottom",
+                                "name": "nombre",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField4",
+                            "designerId": "189e1636-becd-48f7-8512-9c55d4220269"
+                        },
+                        {
+                            "type": "Ext.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Descripción",
+                                "labelAlign": "bottom",
+                                "name": "descripcion",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextArea",
+                            "designerId": "8c6e4ee0-4a4b-47e5-8ad5-6f41f4e1e63c"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Número caso",
+                                "labelAlign": "bottom",
+                                "name": "numero_caso",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField7",
+                            "designerId": "8943ae1d-58c3-45e2-bad3-fbfe3452e802"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Estado",
+                                "labelAlign": "bottom",
+                                "name": "xxx_estado",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField8",
+                            "designerId": "087f52bc-77a4-47a8-9f89-8d8be9328624"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Fecha inicio",
+                                "labelAlign": "bottom",
+                                "name": "fecha_inicio",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField17",
+                            "designerId": "b8088807-4cae-4df7-8b91-35de389425bd"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Fecha fin",
+                                "labelAlign": "bottom",
+                                "name": "fecha_cierre",
+                                "readOnly": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "readOnly": "boolean"
+                            },
+                            "name": "MyTextField18",
+                            "designerId": "7f3ebb53-0008-4e94-8ed8-893fa9ea189c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWin040Added",
+                "implHandler": [
+                    "Ext.getCmp('dsfWin0401').setHtml('<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">'+NOMBRE+'</h3>');"
+                ],
+                "name": "added",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onWin040Added",
+            "designerId": "f8d61196-12d9-4b63-b7f7-adc31ca39f30"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "hidden": true,
+                "id": "btnFrmWin0402",
+                "text": "Grabar"
+            },
+            "configAlternates": {
+                "docked": "string",
+                "text": "string",
+                "id": "string",
+                "hidden": "boolean"
+            },
+            "name": "MyButton6",
+            "designerId": "6409eaf9-f9b7-4480-aff6-1ce61c6fa2cd",
+            "cn": [
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onBtnFrmWin0402Tap",
+                        "implHandler": [
+                            "/*Legalhelp.controller.Funciones.saveRecord('caso.win020Store', 'frmWin0301');",
+                            "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.caso.Win020');*/"
+                        ],
+                        "name": "tap",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onBtnFrmWin0402Tap",
+                    "designerId": "407bd7cc-85f0-4c6a-b276-796756d6e114"
+                }
+            ]
+        }
+    ]
+}

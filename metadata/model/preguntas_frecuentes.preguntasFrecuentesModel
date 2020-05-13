@@ -1,0 +1,90 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "preguntas_frecuentes.preguntasfrecuentesmodel",
+        "designer|userAliasPrefix": "model",
+        "designer|userClassName": "preguntas_frecuentes.preguntasFrecuentesModel",
+        "idProperty": "pre_id"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string",
+        "designer|userAlias": "string",
+        "designer|userAliasPrefix": "string"
+    },
+    "name": "MyModel",
+    "designerId": "db6fe401-3e19-402c-805f-db43d7fac774",
+    "cn": [
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "pre_id",
+                "unique": true
+            },
+            "configAlternates": {
+                "name": "string",
+                "unique": "boolean"
+            },
+            "name": "MyInteger7",
+            "designerId": "dffd5299-f3c9-4692-ab1f-e644ebdcb9cb"
+        },
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "tes_id"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyInteger25",
+            "designerId": "727ea5d7-ef9a-435f-9f55-5fed76b2fb85"
+        },
+        {
+            "type": "Ext.data.field.String",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "pregunta"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyString11",
+            "designerId": "05ca9239-aea6-4436-a523-bdf82084ecc2"
+        },
+        {
+            "type": "Ext.data.field.String",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "respuesta"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyString12",
+            "designerId": "51826b0f-17e1-47d6-a9d2-95c06086f85c"
+        }
+    ]
+}

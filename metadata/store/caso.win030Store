@@ -1,0 +1,44 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "caso.win030Store",
+        "model": "caso.casoModel",
+        "storeId": "caso.win030Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
+    "name": "caso.win020Store1",
+    "designerId": "fa45ea1e-16eb-4f33-87a1-8f994480414d",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyAjaxProxy11",
+            "designerId": "78a0b7d5-dcc7-456e-92cc-85c2abf51401",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader11",
+                    "designerId": "cb8b7422-82c1-408e-834c-ef31ff7de18e"
+                }
+            ]
+        }
+    ]
+}

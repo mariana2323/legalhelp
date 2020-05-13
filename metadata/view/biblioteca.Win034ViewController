@@ -1,0 +1,88 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "biblioteca.win034",
+        "designer|userClassName": "biblioteca.Win034ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "abogado.Win013ViewController1",
+    "designerId": "5e3dd2fd-bb96-48bb-ab7c-98b20fce4d16",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "editRecord",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0341');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.biblioteca.Win035', 'frmWin0351', selection);"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "editRecord",
+            "designerId": "9420bb5b-5e17-44ae-8b7d-ba75ded782fc"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "deleteRecord",
+                "implHandler": [
+                    "Legalhelp.controller.Funciones.deleteRecord('lstWin0341');"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "deleteRecord",
+            "designerId": "3fe4857b-13fc-47b7-a389-fd4957db6337"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "seeRecord",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0341');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.biblioteca.Win036');",
+                    "var url = '<iframe src=\"../servidor_legalhelp/img/'+selection.data.archivo+'\" width=\"100%\" height=\"100%\"></iframe>';",
+                    "Ext.getCmp('pnlWin0361').setHtml(url);"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "seeRecord",
+            "designerId": "b8ac235e-9ca6-46dc-abd0-14d9f95fb575"
+        }
+    ]
+}

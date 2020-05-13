@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tipo_identificacion.win023",
+        "designer|userClassName": "login.Win023ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "login.Win002ViewController4",
+    "designerId": "8936dde1-7212-4dc5-9b5f-51748258c85e"
+}

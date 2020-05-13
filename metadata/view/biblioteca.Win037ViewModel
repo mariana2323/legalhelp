@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "biblioteca.win037",
+        "designer|userClassName": "biblioteca.Win037ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "biblioteca.Win034ViewModel1",
+    "designerId": "1b172567-f4d7-49d9-8f84-30c89451a62b"
+}

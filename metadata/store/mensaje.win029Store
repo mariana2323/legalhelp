@@ -1,0 +1,60 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "mensaje.win029Store",
+        "model": "mensaje.mensajeModel",
+        "storeId": "mensaje.win029Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string",
+        "autoLoad": "boolean"
+    },
+    "name": "menu.win028Store1",
+    "designerId": "f80abe40-a8c3-4bf1-9331-e4edf8b9ed25",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "api": [
+                    "{read: '../servidor_legalhelp/mensaje/getlistamensajes'}"
+                ]
+            },
+            "configAlternates": {
+                "api": "object"
+            },
+            "name": "MyAjaxProxy16",
+            "designerId": "9578c166-3186-4bcf-a3ab-55fcc3e5dcca",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "data"
+                    },
+                    "configAlternates": {
+                        "rootProperty": "string"
+                    },
+                    "name": "MyJsonReader16",
+                    "designerId": "f89f9e93-bfce-416f-8ab6-8180002bfb8c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "usuario.win043",
+        "designer|userClassName": "usuario.Win043",
+        "id": "Win043",
+        "scrollable": true
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "id": "string",
+        "scrollable": "auto"
+    },
+    "name": "usuario.Win",
+    "designerId": "6babb698-44b4-4dd9-8543-dbdd7ae3b953",
+    "viewControllerInstanceId": "d71624da-6209-4344-bf89-23b8f6d13e84",
+    "viewModelInstanceId": "ab7797cd-c051-4f90-b93e-ddc510e54f28",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "frmWin0431"
+            },
+            "configAlternates": {
+                "designer|userAlias": "string",
+                "designer|userClassName": "string",
+                "title": "string",
+                "id": "string"
+            },
+            "name": "MyFormPanel",
+            "designerId": "dba2e56d-6234-46b1-b720-4aefc71437a2",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top"
+                    },
+                    "configAlternates": {
+                        "docked": "string"
+                    },
+                    "name": "MyToolbar1",
+                    "designerId": "ba6dfe52-ffe1-4522-b830-618b0e952524",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "x-fa fa-chevron-left",
+                                "id": "btnFrmWin0431"
+                            },
+                            "configAlternates": {
+                                "iconCls": "string",
+                                "id": "string"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "e37e4a9a-c449-4521-abbe-64ad01fafdad",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnFrmWin0431Tap",
+                                        "implHandler": [
+                                            "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win031');"
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnFrmWin0431Tap",
+                                    "designerId": "94ec86e0-c21f-478f-a5b3-120a26adaba9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">Cambiar contraseña</h3>"
+                            },
+                            "configAlternates": {
+                                "html": "string"
+                            },
+                            "name": "MyPanel5",
+                            "designerId": "8458e04d-e81f-4eac-b3bf-569e47f714cf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "vbox",
+                        "title": "Ingresa tu contraseña"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyFieldSet",
+                    "designerId": "98e3d131-01cc-4f26-8e16-5524a65eaf1c",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Contraseña actual",
+                                "labelAlign": "bottom",
+                                "name": "clave"
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string"
+                            },
+                            "name": "MyPasswordField",
+                            "designerId": "18132c09-a48c-4033-bc0d-1c63aea4b783"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Contraseña nueva",
+                                "labelAlign": "bottom",
+                                "name": "xxx_clave_nueva",
+                                "revealable": true
+                            },
+                            "configAlternates": {
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean"
+                            },
+                            "name": "MyPasswordField1",
+                            "designerId": "34b28f72-3c2f-43fc-ad7b-86ffa235a3a6"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Repita la contraseña",
+                                "labelAlign": "bottom",
+                                "name": "xxx_clave_repetida",
+                                "revealable": true
+                            },
+                            "configAlternates": {
+                                "id": "string",
+                                "label": "string",
+                                "labelAlign": "string",
+                                "name": "string",
+                                "revealable": "boolean"
+                            },
+                            "name": "MyPasswordField2",
+                            "designerId": "62bf2079-f191-4a7c-8114-6124ac8b49a0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "id": "btnFrmWin0432",
+                "text": "Cambiar"
+            },
+            "configAlternates": {
+                "docked": "string",
+                "text": "string",
+                "id": "string"
+            },
+            "name": "MyButton6",
+            "designerId": "5a12f23c-d4c7-4413-87cc-fe3de794897c",
+            "cn": [
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onBtnFrmWin0432Tap",
+                        "implHandler": [
+                            "var me = this;",
+                            "var formulario = Ext.getCmp('frmWin0431');",
+                            "",
+                            "formulario.submit({",
+                            "    url    : '../servidor_legalhelp/usuario/cambiarcontrasena',",
+                            "    method  : 'POST',",
+                            "    params: {",
+                            "        data: Ext.JSON.encode(formulario.getValues())",
+                            "    },",
+                            "    success: function (response, options)",
+                            "    {",
+                            "        //var responseData = Ext.JSON.decode(options.response.responseText);",
+                            "        if(options.success)",
+                            "        {",
+                            "            Ext.Msg.alert('Info', 'Se cambió la contraseña exitosamente');",
+                            "            var win = Ext.create('Legalhelp.view.menu.Win031', {fullscreen: true});",
+                            "            me.getView().destroy();",
+                            "        }",
+                            "        else",
+                            "            Ext.Msg.alert('Error', 'No se ha podido cambiar la contraseña. Inténtalo más tarde.');",
+                            "    },",
+                            "    failure: function ()",
+                            "    {",
+                            "        var msg = 'No se ha podido cambiar la contraseña. Inténtalo más tarde.';",
+                            "        Ext.Msg.alert('Error',msg);",
+                            "    }",
+                            "});"
+                        ],
+                        "name": "tap",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onBtnFrmWin0432Tap",
+                    "designerId": "49a928c9-b79a-48c2-87e8-77a57e9de2b9"
+                }
+            ]
+        }
+    ]
+}

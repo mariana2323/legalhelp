@@ -1,0 +1,42 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "rol.win027Store",
+        "storeId": "rol.win027Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "storeId": "string"
+    },
+    "name": "rol.win019Store1",
+    "designerId": "910791b4-f5cd-4750-b9ce-ad3dd88ca0e7",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyAjaxProxy20",
+            "designerId": "d40548c3-4425-4679-8438-f09eef1c6a90",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader20",
+                    "designerId": "ee96835e-b326-45ca-b90d-576e9e092d5e"
+                }
+            ]
+        }
+    ]
+}

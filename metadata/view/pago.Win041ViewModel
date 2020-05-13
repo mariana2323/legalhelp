@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "pago.win041",
+        "designer|userClassName": "pago.Win041ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "pago.Win008ViewModel1",
+    "designerId": "7554910b-0786-4db0-8ea7-fc8947d5bd80"
+}

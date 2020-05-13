@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "preguntas_frecuentes.win017",
+        "designer|userClassName": "preguntas_frecuentes.Win017ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "preguntas_frecuentes.Win005ViewModel1",
+    "designerId": "3c2f543f-3d72-47c8-8f90-f686a1875dfd"
+}

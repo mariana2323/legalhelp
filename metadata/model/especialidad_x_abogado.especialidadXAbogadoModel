@@ -1,0 +1,70 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "especialidad_x_abogado.especialidadXAbogadoModel",
+        "idProperty": "eab_id"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string"
+    },
+    "name": "MyModel3",
+    "designerId": "b20eef9d-f7cb-4248-b488-a34804df5f90",
+    "cn": [
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "eab_id",
+                "unique": true
+            },
+            "configAlternates": {
+                "name": "string",
+                "unique": "boolean"
+            },
+            "name": "MyInteger3",
+            "designerId": "c0b3734e-b6c3-47f3-a4bd-49932590ff51"
+        },
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "abo_id"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyInteger22",
+            "designerId": "13145136-9e75-4a37-94d1-2ab8017465f2"
+        },
+        {
+            "type": "Ext.data.field.Integer",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "esp_id"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyInteger23",
+            "designerId": "6f7c9dfa-6820-4386-a064-a09b60b2764d"
+        }
+    ]
+}

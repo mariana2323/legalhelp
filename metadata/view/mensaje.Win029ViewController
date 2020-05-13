@@ -1,0 +1,91 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mensaje.win029",
+        "designer|userClassName": "mensaje.Win029ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "menu.Win028ViewController1",
+    "designerId": "d3677666-0f25-4880-833b-54c47d4c9955",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "direcciona",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0291');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "var caso = selection.data.cas_id;",
+                    "var rec = Ext.create('model.caso.casomodel');",
+                    "var me = this;",
+                    "Ext.Ajax.request",
+                    "({",
+                    "    url: '../servidor_legalhelp/caso/readcaso',",
+                    "    method: 'POST',",
+                    "    params:",
+                    "    {",
+                    "        id: caso",
+                    "    },",
+                    "    success: function (response) {",
+                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                    "        if (!responseData.success)",
+                    "            Ext.Msg.alert('Error', 'Ha ocurrido un error.');",
+                    "        else",
+                    "        {",
+                    "            var data = responseData.data;",
+                    "            rec.set(data);",
+                    "            if (data !== null)",
+                    "                Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.caso.Win042', 'frmWin0421', rec);",
+                    "            else",
+                    "                Ext.Msg.alert('Error', 'Ha ocurrido un error.');",
+                    "        }",
+                    "    }",
+                    "});"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "direcciona",
+            "designerId": "2bb542bf-282b-4d75-827b-51fd5fa642ad"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "habilitaPago",
+                "implHandler": [
+                    "var lista = Ext.getCmp('lstWin0291');",
+                    "var store = lista.getStore();",
+                    "var selection = lista._plugins[0].items[0]._record;",
+                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.pago.Win041', 'frmWin0411', selection);"
+                ]
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "habilitaPago",
+            "designerId": "e4ca3d7c-7ad6-42e8-8174-45433a32d662"
+        }
+    ]
+}

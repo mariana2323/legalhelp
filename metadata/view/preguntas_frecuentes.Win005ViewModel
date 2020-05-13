@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "preguntas_frecuentes.win005",
+        "designer|userClassName": "preguntas_frecuentes.Win005ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "menu.Win002ViewModel1",
+    "designerId": "b48fa58a-fdf1-49c6-9c6b-316e6b4b59c2"
+}

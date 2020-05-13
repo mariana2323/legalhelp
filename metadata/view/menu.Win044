@@ -1,0 +1,163 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "menu.win044",
+        "designer|userClassName": "menu.Win044",
+        "id": "Win044",
+        "layout": "fit"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "id": "string",
+        "layout": "string"
+    },
+    "name": "usuario.Win",
+    "designerId": "13dd38c5-a879-45d2-8337-d522a705a83e",
+    "viewControllerInstanceId": "91401595-a6e1-422b-950a-869bb212a286",
+    "viewModelInstanceId": "496c3d6e-2bfb-44fd-b91a-c7f633ec0b06",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "configAlternates": {
+                "docked": "string"
+            },
+            "name": "MyToolbar2",
+            "designerId": "26a52287-77d0-47a1-8139-478ebcebd1e0",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "x-fa fa-home",
+                        "id": "btnWin32"
+                    },
+                    "configAlternates": {
+                        "iconCls": "string",
+                        "id": "string"
+                    },
+                    "name": "MyButton4",
+                    "designerId": "f3fc217a-7052-462d-ad4d-63d4f1e4c19f",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnWin0031Tap",
+                                "implHandler": [
+                                    "if(ROL === 'CLI')",
+                                    "    Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.tipo_especialidad.Win001');",
+                                    "else if(ROL === 'ADM')",
+                                    "    Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win012');",
+                                    "else if(ROL === 'ABG')",
+                                    "    Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win028');"
+                                ],
+                                "name": "tap",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onBtnWin0031Tap",
+                            "designerId": "2e753b45-ad2e-40ac-a319-e388575a05ed"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">Acerca de LegalHelp</h3>"
+                    },
+                    "configAlternates": {
+                        "html": "string"
+                    },
+                    "name": "MyPanel4",
+                    "designerId": "717a24d7-1cf5-4c39-8a88-7c67fc77b03c"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "center"
+            },
+            "configAlternates": {
+                "layout": "string"
+            },
+            "name": "MyContainer4",
+            "designerId": "3a67ea5f-850f-4244-9688-1035ca0e2339",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit"
+                    },
+                    "configAlternates": {
+                        "layout": "string"
+                    },
+                    "name": "MyContainer5",
+                    "designerId": "04aa897c-ddbe-4c9c-a05d-f1b1917e50c4",
+                    "cn": [
+                        {
+                            "type": "Ext.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<div><p>LegalHelp es una aplicación que le ayudará legalmente, asesorandolo paso a paso y guiándo sus pasos a soluciones de calidad</p><br><p>Estamos para asesorarle! </p></div>",
+                                "margin": "0 10 0 10"
+                            },
+                            "configAlternates": {
+                                "html": "string",
+                                "margin": "auto"
+                            },
+                            "name": "MyPanel3",
+                            "designerId": "bbd1c374-5c65-4707-ae13-35d396fb7ae6"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

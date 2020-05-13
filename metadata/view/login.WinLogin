@@ -1,0 +1,389 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "login.winlogin",
+        "designer|userClassName": "login.WinLogin",
+        "id": "WinLogin",
+        "layout": "fit"
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "id": "string"
+    },
+    "name": "MyPanel",
+    "designerId": "0fa02915-7614-41cd-b262-e046bc8b0027",
+    "viewControllerInstanceId": "a799c976-f8a3-480f-8dc5-fce2a8805c86",
+    "viewModelInstanceId": "a243f9ac-5150-442f-b8cb-46aa626d7c69",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "center"
+            },
+            "configAlternates": {
+                "layout": "string"
+            },
+            "name": "MyContainer",
+            "designerId": "561c393e-2433-40c8-9f2b-8e8706bd853d",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit"
+                    },
+                    "configAlternates": {
+                        "layout": "string"
+                    },
+                    "name": "MyContainer1",
+                    "designerId": "14c47b71-fbc6-4ba6-8764-aa9d4ef6c2c3",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "frmLogin001"
+                            },
+                            "configAlternates": {
+                                "id": "string"
+                            },
+                            "name": "MyFormPanel1",
+                            "designerId": "bcc7e76b-a9d8-4b1d-b1ac-bda7bba02479",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 150,
+                                        "id": "imgWinLogin1",
+                                        "src": "../servidor_legalhelp/img/logo.png"
+                                    },
+                                    "configAlternates": {
+                                        "height": "auto",
+                                        "src": "uri",
+                                        "id": "string"
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "afd03e81-5c52-4008-8622-a5a1c3d1243b"
+                                },
+                                {
+                                    "type": "Ext.form.FieldSet",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "name": "MyFieldSet1",
+                                    "designerId": "5b35fd35-42bd-4af7-8105-7916670cbff7",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.field.Email",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "id": "txtFrmLogin0011",
+                                                "label": "Correo",
+                                                "labelAlign": "bottom"
+                                            },
+                                            "configAlternates": {
+                                                "label": "string",
+                                                "labelAlign": "string",
+                                                "id": "string"
+                                            },
+                                            "name": "MyEmailField",
+                                            "designerId": "a6bd1c18-214e-4452-9243-be9b67116ac1"
+                                        },
+                                        {
+                                            "type": "Ext.field.Password",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "id": "pswFrmLogin0011",
+                                                "label": "Contraseña",
+                                                "labelAlign": "bottom"
+                                            },
+                                            "configAlternates": {
+                                                "label": "string",
+                                                "labelAlign": "string",
+                                                "id": "string"
+                                            },
+                                            "name": "MyPasswordField",
+                                            "designerId": "6b57040f-f46d-4c75-aa1a-2e1edfefd6c7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout": "vbox"
+                                    },
+                                    "configAlternates": {
+                                        "layout": "string"
+                                    },
+                                    "name": "MyPanel1",
+                                    "designerId": "0fae4124-e7ea-47be-b35c-19c17358d2b6",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "id": "btnFrmLogin0011",
+                                                "margin": "5 5 0 5",
+                                                "text": "Iniciar sesión",
+                                                "ui": ""
+                                            },
+                                            "configAlternates": {
+                                                "text": "string",
+                                                "ui": "string",
+                                                "id": "string",
+                                                "margin": "auto"
+                                            },
+                                            "name": "MyButton",
+                                            "designerId": "61aa0a06-6d4d-4348-88f8-ab8a5e1110cb",
+                                            "cn": [
+                                                {
+                                                    "type": "viewcontrollereventbinding",
+                                                    "reference": {
+                                                        "name": "listeners",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fn": "onBtnFrmLogin0011Tap",
+                                                        "implHandler": [
+                                                            "var me = this;",
+                                                            "var formulario = Ext.getCmp('frmLogin001');",
+                                                            "var email = Ext.getCmp('txtFrmLogin0011').getValue();",
+                                                            "var password = Ext.getCmp('pswFrmLogin0011').getValue();",
+                                                            "//var win = Ext.getCmp('Win0001');",
+                                                            "//    var win = button.up('panel').up('panel');",
+                                                            "",
+                                                            "if(email === '' || password === '')",
+                                                            "{",
+                                                            "    var msg = 'Llene el usuario y la clave para continuar';",
+                                                            "    Ext.Msg.alert('Error',msg);",
+                                                            "}",
+                                                            "else",
+                                                            "{",
+                                                            "    //Login sistema",
+                                                            "    formulario.submit({",
+                                                            "        url    : '../servidor_legalhelp/login',",
+                                                            "        scope  : this,",
+                                                            "        params: {",
+                                                            "            email:email,",
+                                                            "            password:password",
+                                                            "        },",
+                                                            "        success: function (response, opts)",
+                                                            "        {",
+                                                            "            Ext.Ajax.request",
+                                                            "            ({",
+                                                            "                url: BASE_URL+'/servidor_legalhelp/login/logged',",
+                                                            "                method: 'GET',",
+                                                            "                callback: function(opt, success, response)",
+                                                            "                {",
+                                                            "                    if(success)",
+                                                            "                    {",
+                                                            "                        var data = Ext.JSON.decode(response.responseText);",
+                                                            "                        ID_USUARIO = data.usuario;",
+                                                            "                        //PIN = data.pin;",
+                                                            "                        NOMBRE = data.nomusr;",
+                                                            "                        ROL = data.rol;",
+                                                            "                        IMAGEN_USUARIO = data.imagen;",
+                                                            "                        if(ID_USUARIO)",
+                                                            "                        {",
+                                                            "                            if(ROL === 'CLI')",
+                                                            "                                Ext.create('Legalhelp.view.tipo_especialidad.Win001', {fullscreen: true});",
+                                                            "                            else if(ROL === 'ADM')",
+                                                            "                                Ext.create('Legalhelp.view.menu.Win012', {fullscreen: true});",
+                                                            "                            else if(ROL === 'ABG')",
+                                                            "                                Ext.create('Legalhelp.view.menu.Win028', {fullscreen: true});",
+                                                            "                            me.getView().destroy();",
+                                                            "                        }",
+                                                            "                        else",
+                                                            "                        {",
+                                                            "                            //me.getView().destroy();",
+                                                            "                            Ext.create('Legalhelp.view.login.WinLogin', {fullscreen: true});",
+                                                            "                        }",
+                                                            "                    }",
+                                                            "                    else",
+                                                            "                        Ext.Msg.alert('Error', 'Error de conexión');",
+                                                            "                }",
+                                                            "            });",
+                                                            "            //Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.tipo_especialidad.Win001');",
+                                                            "        },",
+                                                            "        failure: function ()",
+                                                            "        {",
+                                                            "            var msg = 'Usuario no válido';",
+                                                            "            Ext.Msg.alert('Error',msg);",
+                                                            "        }",
+                                                            "    });",
+                                                            "}"
+                                                        ],
+                                                        "name": "tap",
+                                                        "scope": "me"
+                                                    },
+                                                    "configAlternates": {
+                                                        "fn": "string",
+                                                        "implHandler": "code",
+                                                        "name": "string",
+                                                        "scope": "string"
+                                                    },
+                                                    "name": "onBtnFrmLogin0011Tap",
+                                                    "designerId": "d3d3650e-0c7d-4b40-8bcd-3c33f6e31d8d"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.SegmentedButton",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "name": "MySegmentedButton",
+                                            "designerId": "41298745-2e82-4ad3-8462-89ac7b821bce",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "id": "btnFrmLogin0012",
+                                                        "margin": "5 5 0 5",
+                                                        "text": "Registrarse"
+                                                    },
+                                                    "configAlternates": {
+                                                        "id": "string",
+                                                        "margin": "auto",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyButton2",
+                                                    "designerId": "1ee994bf-c685-4079-adc2-0210254cee57",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onBtnFrmLogin0012Tap",
+                                                                "implHandler": [
+                                                                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.usuario.Win002');"
+                                                                ],
+                                                                "name": "tap",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onBtnFrmLogin0012Tap",
+                                                            "designerId": "269cba7f-cbb5-49fe-bfd6-db94d7022154"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "id": "btnFrmLogin0013",
+                                                        "margin": "5 5 0 5",
+                                                        "text": "Olvidé mi contraseña"
+                                                    },
+                                                    "configAlternates": {
+                                                        "id": "string",
+                                                        "margin": "auto",
+                                                        "text": "string"
+                                                    },
+                                                    "name": "MyButton3",
+                                                    "designerId": "30322a7d-30db-4bd8-9521-7f741696cea2",
+                                                    "cn": [
+                                                        {
+                                                            "type": "viewcontrollereventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "fn": "onBtnFrmLogin0013Tap",
+                                                                "implHandler": [
+                                                                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.usuario.Win003');"
+                                                                ],
+                                                                "name": "tap",
+                                                                "scope": "me"
+                                                            },
+                                                            "configAlternates": {
+                                                                "fn": "string",
+                                                                "implHandler": "code",
+                                                                "name": "string",
+                                                                "scope": "string"
+                                                            },
+                                                            "name": "onBtnFrmLogin0013Tap",
+                                                            "designerId": "ac7822f6-e5a8-45e0-b1b1-ef8c43956caf"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

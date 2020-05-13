@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tipo_tarjeta.win024",
+        "designer|userClassName": "login.Win002ViewController5"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "login.Win002ViewController5",
+    "designerId": "8ac40942-2292-4eb9-8d45-00d1bab1e261"
+}

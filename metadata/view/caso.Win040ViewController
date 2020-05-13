@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "caso.win040",
+        "designer|userClassName": "caso.Win040ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "caso.Win030ViewController1",
+    "designerId": "db366ab7-9aca-4e45-9a77-ba44a313880e"
+}

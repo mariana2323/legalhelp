@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tipo_tarjeta.win015",
+        "designer|userClassName": "tipo_tarjeta.Win015ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "menu.Win004ViewModel8",
+    "designerId": "61a6588b-7313-49e8-976b-02f43d411e37"
+}

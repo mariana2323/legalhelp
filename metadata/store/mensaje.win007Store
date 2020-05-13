@@ -1,0 +1,54 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "mensaje.win007Store",
+        "model": "mensaje.mensajeModel",
+        "storeId": "mensaje.win007Store"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
+    "name": "MyStore",
+    "designerId": "53cafe50-f314-4755-bfa1-971bb5b67657",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyAjaxProxy14",
+            "designerId": "23a9475c-16eb-446d-aec7-39a90c02fb49",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader14",
+                    "designerId": "baa14e0d-4a51-45ad-9e26-a32537742910"
+                },
+                {
+                    "type": "Ext.data.writer.Json",
+                    "reference": {
+                        "name": "writer",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonWriter3",
+                    "designerId": "5be2896c-dcef-4099-8613-540738ec8007"
+                }
+            ]
+        }
+    ]
+}

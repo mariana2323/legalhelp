@@ -1,0 +1,544 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "menu.win031",
+        "designer|userClassName": "menu.Win031",
+        "id": "Win031",
+        "layout": "fit"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "id": "string"
+    },
+    "name": "menu.Win2",
+    "designerId": "7510b819-cc84-40e3-b3b1-d4a3c60c4b82",
+    "viewControllerInstanceId": "6ae15856-5805-4342-b4d8-a1498660798b",
+    "viewModelInstanceId": "8031eeca-e7bf-47b5-b657-c31dc0b52014",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "center"
+            },
+            "configAlternates": {
+                "layout": "string"
+            },
+            "name": "MyContainer2",
+            "designerId": "9bcf9b7f-3a59-4f8b-b1a7-edc833b47ce3",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 201,
+                        "id": "imgWin0311",
+                        "width": 201
+                    },
+                    "configAlternates": {
+                        "height": "auto",
+                        "id": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyImg1",
+                    "designerId": "98007427-ef54-4dc7-b25f-03518906380d"
+                },
+                {
+                    "type": "Ext.field.Display",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "dsfWin0312"
+                    },
+                    "configAlternates": {
+                        "label": "string",
+                        "id": "string"
+                    },
+                    "name": "MyDisplayField",
+                    "designerId": "db492e00-3dd4-4c24-990b-bc547b46b3c1"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "x-fa fa-user",
+                        "id": "btnWin0315",
+                        "text": "Editar perfil"
+                    },
+                    "configAlternates": {
+                        "iconCls": "string",
+                        "id": "string",
+                        "text": "string"
+                    },
+                    "name": "MyButton15",
+                    "designerId": "a515bf6d-fd6f-4628-a9d8-13cbbc16c2a0",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnWin0315Tap",
+                                "implHandler": [
+                                    "var rec = Ext.create('model.usuario.usuariomodel');",
+                                    "var me = this;",
+                                    "Ext.Ajax.request",
+                                    "({",
+                                    "    url: '../servidor_legalhelp/usuario/readusuario',",
+                                    "    method: 'POST',",
+                                    "    success: function (response) {",
+                                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                                    "        if (!responseData.success)",
+                                    "            Ext.Msg.alert('Error', 'Ha ocurrido un error.');",
+                                    "        else",
+                                    "        {",
+                                    "            var data = responseData.data;",
+                                    "            rec.set(data);",
+                                    "            if (data !== null)",
+                                    "                Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.usuario.Win032', 'frmWin0321', rec);",
+                                    "            else",
+                                    "                Ext.Msg.alert('Error', 'Ha ocurrido un error.');",
+                                    "        }",
+                                    "    }",
+                                    "});"
+                                ],
+                                "name": "tap",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onBtnWin0315Tap",
+                            "designerId": "dce31942-3f04-4f14-a7ec-f06356d7406f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "x-fa fa-lock",
+                        "id": "btnWin0317",
+                        "text": "Cambiar contraseña"
+                    },
+                    "configAlternates": {
+                        "iconCls": "string",
+                        "id": "string",
+                        "text": "string"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "44f1acd4-f6f0-4a26-8681-88be14240607",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnWin0317Tap",
+                                "implHandler": [
+                                    "var rec = Ext.create('model.usuario.usuariomodel');",
+                                    "rec.data.usu_id = ID_USUARIO;",
+                                    "rec.data.clave = '';",
+                                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.usuario.Win043', 'frmWin0431', rec);",
+                                    "/*var rec = Ext.create('model.usuario.usuariomodel');",
+                                    "var me = this;",
+                                    "Ext.Ajax.request",
+                                    "({",
+                                    "    url: '../servidor_legalhelp/usuario/readusuario',",
+                                    "    method: 'POST',",
+                                    "    success: function (response) {",
+                                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                                    "        if (!responseData.success)",
+                                    "            Ext.Msg.alert('Error', 'Ha ocurrido un error.');",
+                                    "        else",
+                                    "        {",
+                                    "            var data = responseData.data;",
+                                    "            rec.set(data);",
+                                    "            if (data !== null)",
+                                    "                Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.usuario.Win043', 'frmWin0431', rec);",
+                                    "            else",
+                                    "                Ext.Msg.alert('Error', 'Ha ocurrido un error.');",
+                                    "        }",
+                                    "    }",
+                                    "});*/"
+                                ],
+                                "name": "tap",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onBtnWin0317Tap",
+                            "designerId": "2433c4a1-5e6f-4580-bc04-da1ed30a6c7b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "x-fa fa-credit-card",
+                        "id": "btnWin0316",
+                        "text": "Datos tarjeta"
+                    },
+                    "configAlternates": {
+                        "iconCls": "string",
+                        "id": "string",
+                        "text": "string"
+                    },
+                    "name": "MyButton16",
+                    "designerId": "2d58a691-b404-4d72-b5fe-8e176300cae2",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnWin0316Tap",
+                                "implHandler": [
+                                    "var rec = Ext.create('model.usuario.usuariomodel');",
+                                    "var me = this;",
+                                    "Ext.Ajax.request",
+                                    "({",
+                                    "    url: '../servidor_legalhelp/tarjeta/readtarjeta',",
+                                    "    method: 'POST',",
+                                    "    success: function (response) {",
+                                    "        var responseData = Ext.JSON.decode(response.responseText);",
+                                    "        if (!responseData.success)",
+                                    "        {",
+                                    "            rec.data.tar_id = 0;",
+                                    "            Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.tarjeta.Win033', 'frmWin0331', rec);",
+                                    "        }",
+                                    "        else",
+                                    "        {",
+                                    "            var data = responseData.data;",
+                                    "            if (data !== null)",
+                                    "            {",
+                                    "                rec.set(data);",
+                                    "                Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.tarjeta.Win033', 'frmWin0331', rec);",
+                                    "            }",
+                                    "            else",
+                                    "            {",
+                                    "                rec.data.tar_id = 0;",
+                                    "                Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.tarjeta.Win033', 'frmWin0331', rec);",
+                                    "            }",
+                                    "        }",
+                                    "    }",
+                                    "});"
+                                ],
+                                "name": "tap",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onBtnWin0316Tap",
+                            "designerId": "8bd78ffb-3769-42f5-a38a-4e15759dfa9f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "center"
+                    },
+                    "configAlternates": {
+                        "layout": "string"
+                    },
+                    "name": "MyContainer3",
+                    "designerId": "688c509e-7e17-46a2-8418-d8ea2b4bfd86"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "configAlternates": {
+                "docked": "string"
+            },
+            "name": "MyToolbar",
+            "designerId": "7bc2facd-965b-435c-b182-8d97afcee4a3",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "x-fa fa-home",
+                        "id": "btnWin0311"
+                    },
+                    "configAlternates": {
+                        "iconCls": "string",
+                        "id": "string"
+                    },
+                    "name": "MyButton18",
+                    "designerId": "2a8a80d1-7924-43db-8d7b-044c30d9c156",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnWin0311Tap",
+                                "implHandler": [
+                                    "if(ROL === 'CLI')",
+                                    "    Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.tipo_especialidad.Win001');",
+                                    "else if(ROL === 'ADM')",
+                                    "    Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win012');",
+                                    "else if(ROL === 'ABG')",
+                                    "    Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win028');"
+                                ],
+                                "name": "tap",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onBtnWin0311Tap",
+                            "designerId": "85636fbb-3175-47ff-bc62-c865d42fd02b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "x-fa fa-bars"
+                    },
+                    "configAlternates": {
+                        "iconCls": "string"
+                    },
+                    "name": "MyButton7",
+                    "designerId": "f35a948a-5758-43a0-864a-68beaebdb469",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Menu",
+                            "reference": {
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 200
+                            },
+                            "configAlternates": {
+                                "width": "auto"
+                            },
+                            "name": "MyMenu",
+                            "designerId": "6801c808-be57-42cd-a2b8-602f827a8a30",
+                            "cn": [
+                                {
+                                    "type": "Ext.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "iconCls": "x-fa fa-sign-out",
+                                        "id": "btnWin0312",
+                                        "text": "Cerrar sesión"
+                                    },
+                                    "configAlternates": {
+                                        "iconCls": "string",
+                                        "text": "string",
+                                        "id": "string"
+                                    },
+                                    "name": "MyButton1",
+                                    "designerId": "857b2c08-8296-4dff-8b1b-eef01ea97e63",
+                                    "cn": [
+                                        {
+                                            "type": "viewcontrollereventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onBtnWin0312Tap",
+                                                "implHandler": [
+                                                    "Legalhelp.controller.Funciones.logout(this);"
+                                                ],
+                                                "name": "tap",
+                                                "scope": "me"
+                                            },
+                                            "configAlternates": {
+                                                "fn": "string",
+                                                "implHandler": "code",
+                                                "name": "string",
+                                                "scope": "string"
+                                            },
+                                            "name": "onBtnWin0312Tap",
+                                            "designerId": "72b3ce72-a732-4319-bc53-15be27025a32"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "iconCls": "x-fa fa-info",
+                                        "id": "btnWin0314",
+                                        "text": "Acerca"
+                                    },
+                                    "configAlternates": {
+                                        "iconCls": "string",
+                                        "id": "string",
+                                        "text": "string"
+                                    },
+                                    "name": "MyButton2",
+                                    "designerId": "98f12ee3-2c4a-4148-a41b-74157ff50aef",
+                                    "cn": [
+                                        {
+                                            "type": "viewcontrollereventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onBtnWin0314Tap",
+                                                "implHandler": [
+                                                    "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win044');"
+                                                ],
+                                                "name": "tap",
+                                                "scope": "me"
+                                            },
+                                            "configAlternates": {
+                                                "fn": "string",
+                                                "name": "string",
+                                                "scope": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "onBtnWin0314Tap",
+                                            "designerId": "5b57d650-b58a-4df5-81d1-6470cabbd162"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "dsfWin0311"
+                    },
+                    "configAlternates": {
+                        "id": "string"
+                    },
+                    "name": "MyPanel6",
+                    "designerId": "d490c80c-0ab1-4f88-9dce-60918289777e"
+                }
+            ]
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWin031Added",
+                "implHandler": [
+                    "Ext.getCmp('dsfWin0311').setHtml('<h3 style=\"background-color:#c84911;margin:0;padding:0;color:#ffffff\">'+NOMBRE+'</h3>');",
+                    "Ext.getCmp('imgWin0311').setSrc('../servidor_legalhelp/img/'+IMAGEN_USUARIO);",
+                    "Ext.getCmp('dsfWin0312').setHtml('<h1 style=\"margin:0;padding:0;color:#dcc13c\">'+NOMBRE+'</h1>');"
+                ],
+                "name": "added",
+                "scope": "me"
+            },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onWin031Added",
+            "designerId": "f4d6e06e-bd8b-4f16-8bff-16fa54be9c07"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "caso.win040",
+        "designer|userClassName": "caso.Win040ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "caso.Win030ViewModel1",
+    "designerId": "b84a7375-ffda-4061-8669-2a923b7396dd"
+}
