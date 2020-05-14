@@ -20,7 +20,6 @@ Ext.define('Legalhelp.view.abogado.Win013ViewController', {
     editRecord: function() {
         var lista = Ext.getCmp('lstWin0131');
         var store = lista.getStore();
-
         var selection = lista._plugins[0].items[0]._record;
         Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.abogado.Win021', 'frmWin0211', selection);
     },
