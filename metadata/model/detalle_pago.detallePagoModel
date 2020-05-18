@@ -6,15 +6,19 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userAlias": "detallepagomodel",
+        "designer|userAliasPrefix": "model",
         "designer|userClassName": "detalle_pago.detallePagoModel",
         "idProperty": "dpa_id"
     },
     "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userAliasPrefix": "string",
         "designer|userClassName": "string",
         "idProperty": "string"
     },
     "name": "MyModel",
-    "designerId": "321ba38a-d7fb-48fc-9e1c-d53ce1fff075",
+    "designerId": "0d26cab2-e337-49ac-b323-03abace65124",
     "cn": [
         {
             "type": "Ext.data.field.Integer",
@@ -24,15 +28,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "dpa_id",
-                "unique": true
+                "name": "dpa_id"
             },
             "configAlternates": {
-                "name": "string",
-                "unique": "boolean"
+                "name": "string"
             },
-            "name": "MyInteger3",
-            "designerId": "0298d523-8f17-42eb-a7d5-7c78080e1f0d"
+            "name": "MyInteger1",
+            "designerId": "bc5bb63e-2403-4e8a-8699-5323cb5910a9"
         },
         {
             "type": "Ext.data.field.Integer",
@@ -47,8 +49,8 @@
             "configAlternates": {
                 "name": "string"
             },
-            "name": "MyInteger8",
-            "designerId": "ffe29168-e8b7-4e68-9dbe-f40b4c15521d"
+            "name": "MyInteger2",
+            "designerId": "211fcfee-3d54-464f-ad1d-8acb87525eef"
         },
         {
             "type": "Ext.data.field.String",
@@ -64,7 +66,7 @@
                 "name": "string"
             },
             "name": "MyString2",
-            "designerId": "17f5df94-e103-4e31-98e6-5e360432837c"
+            "designerId": "a51c7911-4aba-4a23-a903-ce347ff1c577"
         },
         {
             "type": "Ext.data.field.Number",
@@ -79,8 +81,8 @@
             "configAlternates": {
                 "name": "string"
             },
-            "name": "MyNumber1",
-            "designerId": "67291a8d-ca3c-49fb-8ddd-59037217eeb8"
+            "name": "MyNumber",
+            "designerId": "9a9a1ae6-717b-4f11-aa1e-3452604c0f6f"
         },
         {
             "type": "Ext.data.field.Number",
@@ -95,8 +97,8 @@
             "configAlternates": {
                 "name": "string"
             },
-            "name": "MyNumber2",
-            "designerId": "8b15326c-10a3-4038-babc-fb3d1da5f945"
+            "name": "MyNumber1",
+            "designerId": "47c828db-b1bc-446f-b054-6600c41381b9"
         },
         {
             "type": "Ext.data.field.Integer",
@@ -111,8 +113,8 @@
             "configAlternates": {
                 "name": "string"
             },
-            "name": "MyInteger11",
-            "designerId": "fc5f3c36-1f73-46fb-982e-f2851effd106"
+            "name": "MyInteger5",
+            "designerId": "95d4ff97-458a-4947-8deb-44f591ad23b9"
         },
         {
             "type": "Ext.data.field.String",
@@ -127,8 +129,8 @@
             "configAlternates": {
                 "name": "string"
             },
-            "name": "MyString18",
-            "designerId": "bdab4b5f-21a7-4c3a-a1eb-2d98eabc9285"
+            "name": "MyString4",
+            "designerId": "26917182-8ac4-42b1-8746-a8f2d4daedad"
         }
     ]
 }

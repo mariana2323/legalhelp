@@ -59,7 +59,6 @@ Ext.define('Legalhelp.view.detalle_pago.Win0081', {
                             name: 'MyGrid1',
                             width: '100%',
                             layout: 'fit',
-                            store: 'detalle_pago.win008StoreAux2',
                             hideHeaders: true,
                             columns: [
                                 {

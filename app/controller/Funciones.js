@@ -37,7 +37,7 @@ Ext.define('Legalhelp.controller.Funciones', {
             win.toFront();
     },
 
-    backWin: function(me, aliaswin, forma, record, id, campoid) {
+    backWin: function(me, aliaswin, forma, record, id, campoid, storeid) {
         Ext.create(aliaswin, {fullscreen: true});
         me.getView().destroy();
         if(typeof(record) !== 'undefined' && record !== null)
@@ -69,9 +69,9 @@ Ext.define('Legalhelp.controller.Funciones', {
             }
             else if(pref === 'grd')
             {
-                if(forma === 'grdWin0081')
+                if(forma === 'grdWin00812')
                 {
-                    var store = Ext.getCmp(forma).getStore();
+                    var store = Ext.getStore(storeid);
                     store.load();
                 }
             }

@@ -71,7 +71,8 @@
                     "forma",
                     "record",
                     "id",
-                    "campoid"
+                    "campoid",
+                    "storeid"
                 ],
                 "fn": "backWin",
                 "implHandler": [
@@ -106,9 +107,9 @@
                     "    }",
                     "    else if(pref === 'grd')",
                     "    {",
-                    "        if(forma === 'grdWin0081')",
+                    "        if(forma === 'grdWin00812')",
                     "        {",
-                    "            var store = Ext.getCmp(forma).getStore();",
+                    "            var store = Ext.getStore(storeid);",
                     "            store.load();",
                     "        }",
                     "    }",

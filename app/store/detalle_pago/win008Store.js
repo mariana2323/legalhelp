@@ -27,16 +27,14 @@ Ext.define('Legalhelp.store.detalle_pago.win008Store', {
         cfg = cfg || {};
         me.callParent([Ext.apply({
             storeId: 'detalle_pago.win008Store',
-            autoLoad: true,
             model: 'Legalhelp.model.detalle_pago.detallePagoModel',
             proxy: {
                 type: 'ajax',
-                api: {
-                    read: '../servidor_legalhelp/detallepago/getdetallepago'
-                },
+                url: '../servidor_legalhelp/detallepago/getdetallepago',
                 reader: {
                     type: 'json',
-                    rootProperty: 'data'
+                    rootProperty: 'data',
+                    metaProperty: 'newId'
                 }
             }
         }, cfg)]);

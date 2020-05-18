@@ -15,5 +15,38 @@
 
 Ext.define('Legalhelp.view.detalle_pago.Win0081ViewController', {
     extend: 'Ext.app.ViewController',
-    alias: 'controller.detalle_pago.win0081'
+    alias: 'controller.detalle_pago.win0081',
+
+    onBtnWin0086Tap: function(button, e, eOpts) {
+
+    },
+
+    onBtnWin0087Tap: function(button, e, eOpts) {
+
+    },
+
+    onBtnWin0081Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win004');
+    },
+
+    onBtnWin0082Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.logout(this);
+    },
+
+    onBtnWin0083Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win031');
+    },
+
+    onBtnWin0084Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win044');
+    },
+
+    onBtnWin0085Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win004');
+    },
+
+    onWin008Added: function(component, container, index, eOpts) {
+        Ext.getCmp('dsfWin0081').setHtml('<h3 style="background-color:#c84911;margin:0;padding:0;color:#ffffff">'+NOMBRE+'</h3>');
+    }
+
 });

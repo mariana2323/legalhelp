@@ -15,6 +15,7 @@
 
 Ext.define('Legalhelp.model.detalle_pago.detallePagoModel', {
     extend: 'Ext.data.Model',
+    alias: 'model.detallepagomodel',
 
     requires: [
         'Ext.data.field.String',
@@ -26,8 +27,7 @@ Ext.define('Legalhelp.model.detalle_pago.detallePagoModel', {
     fields: [
         {
             type: 'int',
-            name: 'dpa_id',
-            unique: true
+            name: 'dpa_id'
         },
         {
             type: 'int',

@@ -6,19 +6,17 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": true,
         "designer|userClassName": "detalle_pago.win008Store",
         "model": "detalle_pago.detallePagoModel",
         "storeId": "detalle_pago.win008Store"
     },
     "configAlternates": {
-        "autoLoad": "boolean",
         "designer|userClassName": "string",
         "model": "model",
         "storeId": "string"
     },
     "name": "MyStore",
-    "designerId": "4704bbba-1163-49ef-abf9-ff9b6f94e2bd",
+    "designerId": "1e73873c-5769-4eb5-b1c7-5889795d5eef",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -28,17 +26,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "api": [
-                    "{",
-                    "read: '../servidor_legalhelp/detallepago/getdetallepago'",
-                    "}"
-                ]
+                "url": "../servidor_legalhelp/detallepago/getdetallepago"
             },
             "configAlternates": {
-                "api": "object"
+                "url": "string"
             },
-            "name": "MyAjaxProxy2",
-            "designerId": "8a6d707e-2e60-4e8c-b5d7-fa7971226a67",
+            "name": "MyAjaxProxy1",
+            "designerId": "aae0444b-69c8-4392-a4ef-3130ea658bbe",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -48,13 +42,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "metaProperty": "newId",
                         "rootProperty": "data"
                     },
                     "configAlternates": {
+                        "metaProperty": "string",
                         "rootProperty": "string"
                     },
-                    "name": "MyJsonReader2",
-                    "designerId": "e77a3872-f41b-45d5-8de0-3d659f7e76fd"
+                    "name": "MyJsonReader1",
+                    "designerId": "4c1ae613-1620-4873-8e4d-6a80c4824f67"
                 }
             ]
         }

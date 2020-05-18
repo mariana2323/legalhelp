@@ -110,7 +110,8 @@ Ext.define('Legalhelp.view.usuario.Win002', {
                             xtype: 'emailfield',
                             name: 'email',
                             label: 'Correo',
-                            labelAlign: 'bottom'
+                            labelAlign: 'bottom',
+                            validators: 'email'
                         },
                         {
                             xtype: 'passwordfield',

@@ -6,12 +6,16 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userAlias": "tarjeta.tarjetamodel",
+        "designer|userAliasPrefix": "model",
         "designer|userClassName": "tarjeta.tarjetaModel",
         "idProperty": "tar_id"
     },
     "configAlternates": {
         "designer|userClassName": "string",
-        "idProperty": "string"
+        "idProperty": "string",
+        "designer|userAlias": "string",
+        "designer|userAliasPrefix": "string"
     },
     "name": "MyModel1",
     "designerId": "217aa633-58a8-4ed5-b6b3-bd29f6505c5d",

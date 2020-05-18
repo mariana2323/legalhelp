@@ -15,6 +15,7 @@
 
 Ext.define('Legalhelp.model.tarjeta.tarjetaModel', {
     extend: 'Ext.data.Model',
+    alias: 'model.tarjeta.tarjetamodel',
 
     requires: [
         'Ext.data.field.Integer',

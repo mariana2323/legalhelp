@@ -109,14 +109,22 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
+                                                "autoCapitalize": true,
+                                                "badFormatMessage": "Ingrese un formato correcto por favor",
                                                 "id": "txtFrmLogin0011",
                                                 "label": "Correo",
-                                                "labelAlign": "bottom"
+                                                "labelAlign": "bottom",
+                                                "validationMessage": "El formato es incorrecto",
+                                                "validators": "email"
                                             },
                                             "configAlternates": {
                                                 "label": "string",
                                                 "labelAlign": "string",
-                                                "id": "string"
+                                                "id": "string",
+                                                "autoCapitalize": "boolean",
+                                                "badFormatMessage": "string",
+                                                "validationMessage": "string",
+                                                "validators": "string"
                                             },
                                             "name": "MyEmailField",
                                             "designerId": "a6bd1c18-214e-4452-9243-be9b67116ac1"

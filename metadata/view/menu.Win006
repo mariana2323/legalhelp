@@ -135,7 +135,7 @@
                                             "        break;",
                                             "    case 2:",
                                             "    case 4:",
-                                            "        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.detalle_pago.Win008', 'grdWin0081', '');",
+                                            "        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.detalle_pago.Win0081', 'grdWin00812', '', null, null, 'detalle_pago.win008Store');",
                                             "        break;",
                                             "}"
                                         ],

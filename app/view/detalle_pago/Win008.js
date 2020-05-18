@@ -28,7 +28,6 @@ Ext.define('Legalhelp.view.detalle_pago.Win008', {
     height: '100%',
     id: 'grdWin0081',
     width: '100%',
-    store: 'detalle_pago.win008StoreAux2',
 
     columns: [
         {

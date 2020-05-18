@@ -35,7 +35,8 @@ Ext.define('Legalhelp.store.tarjeta.win033Store', {
                 api: {
                     read: '../servidor_legalhelp/tarjeta/gettarjeta',
                     create: '../servidor_legalhelp/tarjeta/savetarjeta',
-                    update: '../servidor_legalhelp/tarjeta/savetarjeta'
+                    update: '../servidor_legalhelp/tarjeta/savetarjeta',
+                    destroy: '../servidor_legalhelp/tarjeta/deletetarjeta'
                 },
                 reader: {
                     type: 'json',

@@ -70,7 +70,7 @@ Ext.define('Legalhelp.view.menu.Win031ViewController', {
     },
 
     onBtnWin0316Tap: function(button, e, eOpts) {
-        var rec = Ext.create('model.usuario.usuariomodel');
+        var rec = Ext.create('model.tarjeta.tarjetamodel');
         var me = this;
         Ext.Ajax.request
         ({
@@ -122,6 +122,14 @@ Ext.define('Legalhelp.view.menu.Win031ViewController', {
         Ext.getCmp('dsfWin0311').setHtml('<h3 style="background-color:#c84911;margin:0;padding:0;color:#ffffff">'+NOMBRE+'</h3>');
         Ext.getCmp('imgWin0311').setSrc('../servidor_legalhelp/img/'+IMAGEN_USUARIO);
         Ext.getCmp('dsfWin0312').setHtml('<h1 style="margin:0;padding:0;color:#dcc13c">'+NOMBRE+'</h1>');
+        if(ROL === 'CLI')
+        {
+            Ext.getCmp('btnWin0316').setHidden(false);
+        }
+        else
+        {
+            Ext.getCmp('btnWin0316').setHidden(true);
+        }
     }
 
 });

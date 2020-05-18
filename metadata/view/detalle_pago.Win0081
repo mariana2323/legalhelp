@@ -109,7 +109,7 @@
                                 "id": "grdWin00812",
                                 "layout": "fit",
                                 "name": "MyGrid1",
-                                "store": "detalle_pago.win008StoreAux2",
+                                "store": null,
                                 "width": "100%"
                             },
                             "configAlternates": {

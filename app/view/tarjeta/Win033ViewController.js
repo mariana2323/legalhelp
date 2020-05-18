@@ -22,9 +22,10 @@ Ext.define('Legalhelp.view.tarjeta.Win033ViewController', {
     },
 
     onBtnFrmWin0333Tap: function(button, e, eOpts) {
+        var rec = Ext.create('model.tarjeta.tarjetamodel');
         var forma = Ext.getCmp('frmWin0331');
-        var id = forma.findField('tar_id').getValue();
-        var store = forma.getStore();
+        var id = Ext.getCmp('frmWin0331').getValues().tar_id;
+        var store = Ext.getStore('tarjeta.win033Store');
         var selection = forma.getRecord();
         if(id !== 0 && id !== '0' && id !== '' && id !== null)
         {
@@ -35,6 +36,7 @@ Ext.define('Legalhelp.view.tarjeta.Win033ViewController', {
                 {
                     success: function(batch, options)
                     {
+                        forma.setRecord(rec);
                         store.commitChanges();
                     },
                     failure: function(batch, options)

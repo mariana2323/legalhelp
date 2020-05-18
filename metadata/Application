@@ -60,9 +60,7 @@
             "biblioteca.win034Store",
             "caso.win042Store",
             "especialidad.especialidadCmbStore",
-            "detalle_pago.win008Store",
-            "detalle_pago.win008StoreAux",
-            "detalle_pago.win008StoreAux2"
+            "detalle_pago.win008Store"
         ],
         "views": [
             "login.WinLogin",

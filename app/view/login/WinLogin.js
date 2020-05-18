@@ -62,7 +62,11 @@ Ext.define('Legalhelp.view.login.WinLogin', {
                                             xtype: 'emailfield',
                                             id: 'txtFrmLogin0011',
                                             label: 'Correo',
-                                            labelAlign: 'bottom'
+                                            labelAlign: 'bottom',
+                                            validationMessage: 'El formato es incorrecto',
+                                            validators: 'email',
+                                            autoCapitalize: true,
+                                            badFormatMessage: 'Ingrese un formato correcto por favor'
                                         },
                                         {
                                             xtype: 'passwordfield',

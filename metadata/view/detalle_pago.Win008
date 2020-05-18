@@ -10,7 +10,7 @@
         "designer|userClassName": "detalle_pago.Win008",
         "height": "100%",
         "id": "grdWin0081",
-        "store": "detalle_pago.win008StoreAux2",
+        "store": null,
         "width": "100%"
     },
     "configAlternates": {

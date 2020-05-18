@@ -275,12 +275,14 @@
                             "userConfig": {
                                 "label": "Correo",
                                 "labelAlign": "bottom",
-                                "name": "email"
+                                "name": "email",
+                                "validators": "email"
                             },
                             "configAlternates": {
                                 "label": "string",
                                 "labelAlign": "string",
-                                "name": "string"
+                                "name": "string",
+                                "validators": "string"
                             },
                             "name": "MyEmailField1",
                             "designerId": "eb404174-cc94-4ad5-a420-2fcea67ee069"

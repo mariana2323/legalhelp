@@ -15,5 +15,62 @@
 
 Ext.define('Legalhelp.view.menu.Win006ViewController', {
     extend: 'Ext.app.ViewController',
-    alias: 'controller.menu.win006'
+    alias: 'controller.menu.win006',
+
+    onDtvWin0061Childtap: function(dataview, location, eOpts) {
+        var me = this;
+        switch(location.record.data.id)
+        {
+            case 1:
+            case 3:
+            case 5:
+            var ubicacion = location.record.data.id;
+            var tipoUsuario = 'cliente';
+            var forma = Ext.getCmp('frmWin0061');
+            forma.submit({
+                url: "../servidor_legalhelp/mensaje/getmensajes",
+                params: {tipo_usuario: tipoUsuario, ubicacion: ubicacion},
+                success: function(form, action) {
+                    var html = action.data;
+                    var cas = action.caso;
+                    Legalhelp.controller.Funciones.backWin(me, 'Legalhelp.view.mensaje.Win007', 'frmWin0071', '',[ubicacion,cas], ['hdnWin0072','hdnWin0071']);
+                    Ext.getCmp('pnlWin0071').setHtml(html);
+                    var panel = Ext.getCmp('pnlWin0071');
+                    var d = panel.bodyElement.dom;
+                    d.scrollTop = d.scrollHeight;// - d.offsetHeight;
+                },
+                failure: function(form, action)
+                {
+                    Ext.Msg.alert('Error', 'Error de conexión');
+                }
+            });
+
+            break;
+            case 2:
+            case 4:
+            Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.detalle_pago.Win0081', 'grdWin00812', '', null, null, 'detalle_pago.win008Store');
+            break;
+        }
+    },
+
+    onBtnWin0061Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win004');
+    },
+
+    onBtnWin0062Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.logout(this);
+    },
+
+    onBtnWin0063Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win031');
+    },
+
+    onBtnWin0064Tap: function(button, e, eOpts) {
+        Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win044');
+    },
+
+    onWin006Added: function(component, container, index, eOpts) {
+        Ext.getCmp('dsfWin0061').setHtml('<h3 style="background-color:#c84911;margin:0;padding:0;color:#ffffff">'+NOMBRE+'</h3>');
+    }
+
 });
