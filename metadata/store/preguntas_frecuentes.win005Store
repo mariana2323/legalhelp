@@ -29,7 +29,7 @@
             "codeClass": null,
             "userConfig": {
                 "api": [
-                    "{read: '../servidor_legalhelp/preguntas_frecuentes/getpreguntasfrecuentes'}"
+                    "{read: '../servidor_legalhelp/preguntasfrecuentes/getpreguntasfrecuentes'}"
                 ]
             },
             "configAlternates": {

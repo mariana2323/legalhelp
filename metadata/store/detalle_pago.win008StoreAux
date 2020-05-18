@@ -37,7 +37,7 @@
             "codeClass": null,
             "userConfig": {
                 "api": [
-                    "{read: '../servidor_legalhelp/detalle_pago/getdetallepago'}"
+                    "{read: '../servidor_legalhelp/detallepago/getdetallepago'}"
                 ]
             },
             "configAlternates": {

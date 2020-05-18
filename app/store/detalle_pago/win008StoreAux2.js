@@ -31,7 +31,7 @@ Ext.define('Legalhelp.store.detalle_pago.win008StoreAux2', {
             model: 'Legalhelp.model.detalle_pago.detallePagoModel',
             proxy: {
                 type: 'jsonp',
-                url: '../servidor_legalhelp/detalle_pago/getdetallepago',
+                url: '../servidor_legalhelp/detallepago/getdetallepago',
                 reader: {
                     type: 'json',
                     rootProperty: 'data'

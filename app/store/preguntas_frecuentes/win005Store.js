@@ -32,7 +32,7 @@ Ext.define('Legalhelp.store.preguntas_frecuentes.win005Store', {
             proxy: {
                 type: 'ajax',
                 api: {
-                    read: '../servidor_legalhelp/preguntas_frecuentes/getpreguntasfrecuentes'
+                    read: '../servidor_legalhelp/preguntasfrecuentes/getpreguntasfrecuentes'
                 },
                 reader: {
                     type: 'json',

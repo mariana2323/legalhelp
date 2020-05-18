@@ -29,7 +29,7 @@
             "codeClass": null,
             "userConfig": {
                 "api": [
-                    "{read: '../servidor_legalhelp/tipo_especialidad/gettipoespecialidades'}"
+                    "{read: '../servidor_legalhelp/tipoespecialidad/gettipoespecialidades'}"
                 ]
             },
             "configAlternates": {

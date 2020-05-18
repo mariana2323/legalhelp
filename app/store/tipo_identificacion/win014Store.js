@@ -33,10 +33,10 @@ Ext.define('Legalhelp.store.tipo_identificacion.win014Store', {
             proxy: {
                 type: 'ajax',
                 api: {
-                    read: '../servidor_legalhelp/tipo_identificacion/gettipoidentificacion',
-                    create: '../servidor_legalhelp/tipo_identificacion/savetipoidentificacion',
-                    update: '../servidor_legalhelp/tipo_identificacion/savetipoidentificacion',
-                    destroy: '../servidor_legalhelp/tipo_identificacion/deletetipoidentificacion'
+                    read: '../servidor_legalhelp/tipoidentificacion/gettipoidentificacion',
+                    create: '../servidor_legalhelp/tipoidentificacion/savetipoidentificacion',
+                    update: '../servidor_legalhelp/tipoidentificacion/savetipoidentificacion',
+                    destroy: '../servidor_legalhelp/tipoidentificacion/deletetipoidentificacion'
                 },
                 reader: {
                     type: 'json',

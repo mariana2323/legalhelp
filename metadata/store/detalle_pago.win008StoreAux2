@@ -28,7 +28,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "../servidor_legalhelp/detalle_pago/getdetallepago"
+                "url": "../servidor_legalhelp/detallepago/getdetallepago"
             },
             "configAlternates": {
                 "url": "string"

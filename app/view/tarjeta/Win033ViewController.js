@@ -21,8 +21,33 @@ Ext.define('Legalhelp.view.tarjeta.Win033ViewController', {
         Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win031');
     },
 
+    onBtnFrmWin0333Tap: function(button, e, eOpts) {
+        var forma = Ext.getCmp('frmWin0331');
+        var id = forma.findField('tar_id').getValue();
+        var store = forma.getStore();
+        var selection = forma.getRecord();
+        if(id !== 0 && id !== '0' && id !== '' && id !== null)
+        {
+            if (selection !== null && typeof(selection) !== 'undefined')
+            {
+                store.remove(selection);
+                store.sync(
+                {
+                    success: function(batch, options)
+                    {
+                        store.commitChanges();
+                    },
+                    failure: function(batch, options)
+                    {
+                        store.rejectChanges();
+                    }
+                });
+            }
+        }
+    },
+
     onBtnFrmWin0332Tap: function(button, e, eOpts) {
-        var id = Ext.getCmp('frmWin0211').getValues().tar_id;
+        var id = Ext.getCmp('frmWin0331').getValues().tar_id;
         Legalhelp.controller.Funciones.saveRecord('tarjeta.win033Store', 'frmWin0331');
         Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win031');
     },

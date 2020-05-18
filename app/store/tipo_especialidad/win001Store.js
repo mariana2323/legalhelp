@@ -32,7 +32,7 @@ Ext.define('Legalhelp.store.tipo_especialidad.win001Store', {
             proxy: {
                 type: 'ajax',
                 api: {
-                    read: '../servidor_legalhelp/tipo_especialidad/gettipoespecialidades'
+                    read: '../servidor_legalhelp/tipoespecialidad/gettipoespecialidades'
                 },
                 reader: {
                     type: 'json',

@@ -34,10 +34,10 @@ Ext.define('Legalhelp.store.tipo_tarjeta.win015Store', {
             proxy: {
                 type: 'ajax',
                 api: {
-                    read: '../servidor_legalhelp/tipo_tarjeta/gettipotarjeta',
-                    create: '../servidor_legalhelp/tipo_tarjeta/savetipotarjeta',
-                    update: '../servidor_legalhelp/tipo_tarjeta/savetipotarjeta',
-                    destroy: '../servidor_legalhelp/tipo_tarjeta/deletetipotarjeta'
+                    read: '../servidor_legalhelp/tipotarjeta/gettipotarjeta',
+                    create: '../servidor_legalhelp/tipotarjeta/savetipotarjeta',
+                    update: '../servidor_legalhelp/tipotarjeta/savetipotarjeta',
+                    destroy: '../servidor_legalhelp/tipotarjeta/deletetipotarjeta'
                 },
                 reader: {
                     type: 'json',

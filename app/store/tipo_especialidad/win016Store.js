@@ -33,10 +33,10 @@ Ext.define('Legalhelp.store.tipo_especialidad.win016Store', {
             proxy: {
                 type: 'ajax',
                 api: {
-                    read: '../servidor_legalhelp/tipo_especialidad/gettipoespecialidades',
-                    create: '../servidor_legalhelp/tipo_especialidad/savetipoespecialidad',
-                    update: '../servidor_legalhelp/tipo_especialidad/savetipoespecialidad',
-                    destroy: '../servidor_legalhelp/tipo_especialidad/deletetipoespecialidad'
+                    read: '../servidor_legalhelp/tipoespecialidad/gettipoespecialidades',
+                    create: '../servidor_legalhelp/tipoespecialidad/savetipoespecialidad',
+                    update: '../servidor_legalhelp/tipoespecialidad/savetipoespecialidad',
+                    destroy: '../servidor_legalhelp/tipoespecialidad/deletetipoespecialidad'
                 },
                 reader: {
                     type: 'json',

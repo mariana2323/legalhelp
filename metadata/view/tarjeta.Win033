@@ -147,6 +147,24 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
+                                "name": "tar_id"
+                            },
+                            "configAlternates": {
+                                "name": "string",
+                                "hidden": "boolean"
+                            },
+                            "name": "MyTextField6",
+                            "designerId": "1b9e56cf-02e1-447f-9b6b-42776c6030fa"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
                                 "label": "Nombre titular",
                                 "labelAlign": "bottom",
                                 "name": "nombre_titular"
@@ -265,6 +283,73 @@
                             },
                             "name": "MyPasswordField3",
                             "designerId": "bf61f604-550a-4a09-8a24-1037cc9b2342"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "btnFrmWin0333",
+                                "text": "Elimina datos de tarjeta",
+                                "ui": ""
+                            },
+                            "configAlternates": {
+                                "id": "string",
+                                "text": "string",
+                                "ui": "string"
+                            },
+                            "name": "MyButton8",
+                            "designerId": "fcbe0d6e-88b5-48c7-9157-7ed4275c97b2",
+                            "cn": [
+                                {
+                                    "type": "viewcontrollereventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onBtnFrmWin0333Tap",
+                                        "implHandler": [
+                                            "var forma = Ext.getCmp('frmWin0331');",
+                                            "var id = forma.findField('tar_id').getValue();",
+                                            "var store = forma.getStore();",
+                                            "var selection = forma.getRecord();",
+                                            "if(id !== 0 && id !== '0' && id !== '' && id !== null)",
+                                            "{",
+                                            "    if (selection !== null && typeof(selection) !== 'undefined')",
+                                            "    {",
+                                            "        store.remove(selection);",
+                                            "        store.sync(",
+                                            "            {",
+                                            "                success: function(batch, options)",
+                                            "                {",
+                                            "                    store.commitChanges();",
+                                            "                },",
+                                            "                failure: function(batch, options)",
+                                            "                {",
+                                            "                    store.rejectChanges();",
+                                            "                }",
+                                            "            });",
+                                            "    }",
+                                            "}"
+                                        ],
+                                        "name": "tap",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onBtnFrmWin0333Tap",
+                                    "designerId": "6a7e9725-4998-4274-b130-cc06bcaed531"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -300,7 +385,7 @@
                     "userConfig": {
                         "fn": "onBtnFrmWin0332Tap",
                         "implHandler": [
-                            "var id = Ext.getCmp('frmWin0211').getValues().tar_id;",
+                            "var id = Ext.getCmp('frmWin0331').getValues().tar_id;",
                             "Legalhelp.controller.Funciones.saveRecord('tarjeta.win033Store', 'frmWin0331');",
                             "Legalhelp.controller.Funciones.backWin(this, 'Legalhelp.view.menu.Win031');"
                         ],

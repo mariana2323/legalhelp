@@ -33,10 +33,10 @@ Ext.define('Legalhelp.store.preguntas_frecuentes.win017Store', {
             proxy: {
                 type: 'ajax',
                 api: {
-                    read: '../servidor_legalhelp/preguntas_frecuentes/getpreguntasfrecuentes',
-                    create: '../servidor_legalhelp/preguntas_frecuentes/savepreguntas',
-                    update: '../servidor_legalhelp/preguntas_frecuentes/savepreguntas',
-                    destroy: '../servidor_legalhelp/preguntas_frecuentes/deletepreguntas'
+                    read: '../servidor_legalhelp/preguntasfrecuentes/getpreguntasfrecuentes',
+                    create: '../servidor_legalhelp/preguntasfrecuentes/savepreguntas',
+                    update: '../servidor_legalhelp/preguntasfrecuentes/savepreguntas',
+                    destroy: '../servidor_legalhelp/preguntasfrecuentes/deletepreguntas'
                 },
                 reader: {
                     type: 'json',

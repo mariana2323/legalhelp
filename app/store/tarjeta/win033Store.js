@@ -17,7 +17,7 @@ Ext.define('Legalhelp.store.tarjeta.win033Store', {
     extend: 'Ext.data.Store',
 
     requires: [
-        'Legalhelp.model.tipo_tarjeta.tipoTarjetaModel',
+        'Legalhelp.model.tarjeta.tarjetaModel',
         'Ext.data.proxy.Ajax',
         'Ext.data.reader.Json',
         'Ext.data.writer.Json'
@@ -29,7 +29,7 @@ Ext.define('Legalhelp.store.tarjeta.win033Store', {
         me.callParent([Ext.apply({
             storeId: 'tarjeta.win033Store',
             autoSync: true,
-            model: 'Legalhelp.model.tipo_tarjeta.tipoTarjetaModel',
+            model: 'Legalhelp.model.tarjeta.tarjetaModel',
             proxy: {
                 type: 'ajax',
                 api: {

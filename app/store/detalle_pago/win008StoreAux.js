@@ -36,7 +36,7 @@ Ext.define('Legalhelp.store.detalle_pago.win008StoreAux', {
             proxy: {
                 type: 'jsonp',
                 api: {
-                    read: '../servidor_legalhelp/detalle_pago/getdetallepago'
+                    read: '../servidor_legalhelp/detallepago/getdetallepago'
                 },
                 reader: {
                     type: 'json',

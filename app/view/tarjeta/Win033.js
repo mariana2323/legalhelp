@@ -69,6 +69,11 @@ Ext.define('Legalhelp.view.tarjeta.Win033', {
                     items: [
                         {
                             xtype: 'textfield',
+                            hidden: true,
+                            name: 'tar_id'
+                        },
+                        {
+                            xtype: 'textfield',
                             name: 'nombre_titular',
                             label: 'Nombre titular',
                             labelAlign: 'bottom'
@@ -104,6 +109,15 @@ Ext.define('Legalhelp.view.tarjeta.Win033', {
                             name: 'xxx_cvc',
                             label: 'CVC',
                             labelAlign: 'bottom'
+                        },
+                        {
+                            xtype: 'button',
+                            id: 'btnFrmWin0333',
+                            ui: '',
+                            text: 'Elimina datos de tarjeta',
+                            listeners: {
+                                tap: 'onBtnFrmWin0333Tap'
+                            }
                         }
                     ]
                 }

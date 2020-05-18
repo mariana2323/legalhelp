@@ -8,7 +8,7 @@
     "userConfig": {
         "autoSync": true,
         "designer|userClassName": "tarjeta.win033Store",
-        "model": "tipo_tarjeta.tipoTarjetaModel",
+        "model": "tarjeta.tarjetaModel",
         "storeId": "tarjeta.win033Store"
     },
     "configAlternates": {
