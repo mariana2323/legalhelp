@@ -7,7 +7,7 @@
             "frameworkVersion": "6.6.0.258"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:56314/",
+        "urlPrefix": "http://localhost:57187/",
         "canvasControls": {
             "viewportSize": {
                 "name": "iPhone",
@@ -114,6 +114,7 @@
             "db561571-bb0f-4920-97bd-bda57a0fe2e7",
             "6babb698-44b4-4dd9-8543-dbdd7ae3b953",
             "5273d762-d5ec-46bc-86da-f23f7f8f0c5e",
+            "5f8dd968-7386-4e94-92da-74f9460821cf",
             "7436b2c4-7890-4c03-8aa2-55e7f66d3f6a",
             "d6450670-7c4d-4b49-a00b-6fc81bf3e2db",
             "27d8f939-e2ce-43e7-a9f9-ac5bbfbefe73",
@@ -131,6 +132,7 @@
             "ee3223e9-ab43-4260-9b34-8018fc9b79c5",
             "ab7797cd-c051-4f90-b93e-ddc510e54f28",
             "54c19094-a262-4054-bfb6-85e80d80c57a",
+            "476120bd-21b5-46ee-ab00-5b2312890e07",
             "a2730aa7-8573-428f-ba94-7d80b219a37e",
             "8b82d078-740e-453c-b13f-baac6fbe36ae",
             "83aed9c9-332f-42f1-8a57-5a355f9f45bf",
@@ -148,6 +150,7 @@
             "525621c1-de15-437e-a98d-692d5d9f8ea2",
             "d71624da-6209-4344-bf89-23b8f6d13e84",
             "7bcf324f-a7e9-4ab8-bd69-a4ed31618ac2",
+            "3962ee3c-dd2b-408d-b670-dcf9af14afa8",
             "7ac84c81-af28-40fc-83fa-e5222f1fbc63",
             "8936dde1-7212-4dc5-9b5f-51748258c85e",
             "d7e7b1e4-4e32-4469-80bd-58cfa38b70d5",
@@ -230,7 +233,7 @@
             "0d26cab2-e337-49ac-b323-03abace65124"
         ],
         "resource": [
-            "508f5824-2afd-4bad-83a8-a7e6df8b560d",
+            "9c25c8cd-ee6e-4680-aa46-525ef48e49f9",
             "ed136bae-839d-48c2-ac62-b61b6a2043d8",
             "520ce38e-c496-4428-a11d-6f58de4b660f",
             "01ebd507-7a3d-4df6-8d45-2431b7c5c81b"

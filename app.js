@@ -121,7 +121,8 @@ Ext.application({
         'caso.Win042',
         'usuario.Win043',
         'menu.Win044',
-        'detalle_pago.Win008'
+        'detalle_pago.Win008',
+        'abogado.Win'
     ],
     name: 'Legalhelp',
 
