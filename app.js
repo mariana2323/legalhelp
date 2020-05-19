@@ -73,8 +73,7 @@ Ext.application({
         'biblioteca.win034Store',
         'caso.win042Store',
         'especialidad.especialidadCmbStore',
-        'detalle_pago.win008Store',
-        'biblioteca.win034Store1'
+        'detalle_pago.win008Store'
     ],
     views: [
         'login.WinLogin',

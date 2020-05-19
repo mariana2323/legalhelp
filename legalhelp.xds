@@ -7,7 +7,7 @@
             "frameworkVersion": "6.6.0.258"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:57484/",
+        "urlPrefix": "http://localhost:59202/",
         "canvasControls": {
             "viewportSize": {
                 "name": "iPhone",
@@ -201,7 +201,6 @@
             "9aa5f6ec-8251-45fa-b4d1-97d8d1c40196",
             "608a84a9-3119-49a1-aba5-2f533d0c13d4",
             "108c32cd-b5ee-4150-b885-ccee2a6e27b7",
-            "17f4345c-1e73-4bf9-bdcf-1b903b393d48",
             "1e73873c-5769-4eb5-b1c7-5889795d5eef"
         ],
         "controller": [
@@ -231,7 +230,7 @@
             "0d26cab2-e337-49ac-b323-03abace65124"
         ],
         "resource": [
-            "fa2e5cf1-91c3-4936-8e54-f1a774b94ca1",
+            "bf850c66-c5fe-4211-b624-74a56cacc033",
             "ed136bae-839d-48c2-ac62-b61b6a2043d8",
             "520ce38e-c496-4428-a11d-6f58de4b660f",
             "01ebd507-7a3d-4df6-8d45-2431b7c5c81b"
