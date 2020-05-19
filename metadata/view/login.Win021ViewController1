@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "abogado.win",
+        "designer|userClassName": "login.Win021ViewController1"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "login.Win021ViewController1",
+    "designerId": "3962ee3c-dd2b-408d-b670-dcf9af14afa8"
+}
