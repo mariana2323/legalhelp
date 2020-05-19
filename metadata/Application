@@ -60,7 +60,8 @@
             "biblioteca.win034Store",
             "caso.win042Store",
             "especialidad.especialidadCmbStore",
-            "detalle_pago.win008Store"
+            "detalle_pago.win008Store",
+            "biblioteca.win034Store1"
         ],
         "views": [
             "login.WinLogin",
@@ -108,8 +109,7 @@
             "caso.Win042",
             "usuario.Win043",
             "menu.Win044",
-            "detalle_pago.Win008",
-            "abogado.Win"
+            "detalle_pago.Win008"
         ]
     },
     "configAlternates": {

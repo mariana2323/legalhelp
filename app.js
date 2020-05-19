@@ -73,7 +73,8 @@ Ext.application({
         'biblioteca.win034Store',
         'caso.win042Store',
         'especialidad.especialidadCmbStore',
-        'detalle_pago.win008Store'
+        'detalle_pago.win008Store',
+        'biblioteca.win034Store1'
     ],
     views: [
         'login.WinLogin',
@@ -121,8 +122,7 @@ Ext.application({
         'caso.Win042',
         'usuario.Win043',
         'menu.Win044',
-        'detalle_pago.Win008',
-        'abogado.Win'
+        'detalle_pago.Win008'
     ],
     name: 'Legalhelp',
 
